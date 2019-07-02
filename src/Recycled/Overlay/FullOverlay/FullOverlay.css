@@ -1,0 +1,16 @@
+.FullOverlay {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.496);
+  z-index: 95;
+}
+
+@media screen and (max-width: 1000px) {
+  .FullOverlay {
+    display: none;
+  }
+}
+/*# sourceMappingURL=FullOverlay.css.map */

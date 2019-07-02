@@ -1,0 +1,66 @@
+.NavDrawer {
+    width: 320px;
+    height: 100vh;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.119);
+    background-color: #FFF;
+    z-index: 100;
+}
+
+    .NavDrawerOpen {
+        left: 0;
+    }
+
+.NavDrawer-Wrapper {
+    width: 305px;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.NavDrawer-List {
+    list-style: none;
+    padding-top: 60px;
+   
+}
+
+.NavDrawer-ListItem {
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #d5d5d5;
+    display: flex;
+    align-items: center;
+}
+
+.NavDrawer-ListItem:first-child {
+    border-top: 1px solid #d5d5d5;
+}
+
+.NavDrawer-ListItemLink {
+    color: #585858;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    padding-left: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.NavDrawer-Dealer {
+    color: rgb(61, 155, 206);
+    font-weight: 600;
+}
+
+.NavDrawer-ListItemLinkIcon {
+    width: 7px;
+    height: 7px;
+    background-color: #585858;
+}
+
+
+
+

@@ -1,0 +1,81 @@
+.UserDrawer {
+    width: 320px;
+    height: 100vh;
+    position: absolute;
+    right: -100%;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.119);
+    background-color: #FFF;
+    z-index: 100;
+}
+
+    .UserDrawerOpen {
+        right: 0;
+    }
+
+.UserDrawer-Wrapper {
+    width: 305px;
+    height: 100vh;
+    background-color: #f9f9f9;
+    right: 0;
+}
+
+.UserDrawer-RegistrationBlock {
+    width: 100%;
+    height: 70px;
+    margin-top: 60px;
+    border-bottom: 1px solid #d5d5d5;
+    border-top: 1px solid #d5d5d5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .UserDrawer-RegistrationText {
+
+        .UserDrawer-RegistrationTextLink {
+        color: #585858;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 600;
+        cursor: pointer;
+        }
+    }
+}
+
+
+.UserDrawer-SavedItemsBlock {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #d5d5d5;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .UserDrawer-SavedItems-Text {
+        width: 100%;
+        padding-left: 50px;
+        color: #585858;
+        font-size: 17px;
+        font-weight: 600;
+        cursor: pointer;
+        
+
+    }
+
+    .UserDrawer-SavedItemIcon {
+            width: 7px;
+            height: 7px;
+            background-color: #585858;
+            margin-right: 15px;
+            cursor: pointer;
+        }
+}
+
+
+
+
+
+
