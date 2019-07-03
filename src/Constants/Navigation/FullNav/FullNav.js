@@ -11,10 +11,15 @@ export default function FullNav() {
                         <h1 className='FullNav-Logo'>Starck</h1>
                     </Link>
                     <div className='FullNav-UserLinks-Wrapper'>
-                        <p className='FullNav-Registration'>Login / Register</p>
-                        <div className='FullNav-ContactBtn'>
-                            <p className='FullNav-ContactBtn-Text'>Contact Us</p>
-                        </div>
+                        <Link to='/registration' className='FullNav-RegistrationLink'>
+                            <p className='FullNav-Registration'>Login / Register</p>
+                        </Link>
+                        <Link to='/contact'>
+                            <div className='FullNav-ContactBtn'>
+                                <p className='FullNav-ContactBtn-Text'>Contact Us</p>
+                            </div>
+                        </Link>
+                        
                     </div>
                 </div>
                 <div className='FullNav-BottomRow'>
@@ -36,11 +41,13 @@ export default function FullNav() {
                         
                         
                     </div>
-
-                    <div className='FullNav-Dealer-Wrapper'>
-                        <div className='FullNav-Dealer-Icon'></div>
-                        <p className='FullNav-Dealer-Text'>Find A Dealer</p>
-                    </div>
+                    <Link to='/find-a-dealer'>
+                        <div className='FullNav-Dealer-Wrapper'>
+                            <div className='FullNav-Dealer-Icon'></div>
+                            <p className='FullNav-Dealer-Text'>Find A Dealer</p>
+                        </div>
+                    </Link>
+                    
                 </div>
             </div>
         </div>

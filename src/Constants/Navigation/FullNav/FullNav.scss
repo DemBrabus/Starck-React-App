@@ -38,13 +38,17 @@
       justify-content: space-between;
       align-items: center;
 
-      .FullNav-Registration {
+      .FullNav-RegistrationLink {
+          color: #585858;
+
+          .FullNav-Registration {
           font-size: 14px;
           font-weight: 600;
           margin-right: 30px;
           cursor: pointer;
+        }
       }
-
+      
       .FullNav-ContactBtn {
           width: 100px;
           height: 30px;

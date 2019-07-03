@@ -1,5 +1,6 @@
 import React from 'react';
 import './UserDrawer.scss';
+import { Link } from 'react-router-dom';
 
 export default function UserDrawer({ UserDrawerIsOpen, CloseUserDrawer }) {
 
@@ -11,7 +12,10 @@ export default function UserDrawer({ UserDrawerIsOpen, CloseUserDrawer }) {
         <div className={UserDrawerClasses}>
             <div className='UserDrawer-Wrapper'>
                 <div className='UserDrawer-RegistrationBlock'>
-                    <p className='UserDrawer-RegistrationText'><a href='/'className='UserDrawer-RegistrationTextLink' onClick={CloseUserDrawer}>Login / Register</a></p>
+                    <Link to='/registration' className='UserDrawer-RegistrationTextLink' onClick={CloseUserDrawer}>
+                        <p className='UserDrawer-RegistrationText'>Login / Register</p>
+                    </Link>
+                    
                 </div>
                 <div className='UserDrawer-SavedItemsBlock'>
                     <p className='UserDrawer-SavedItems-Text'>Saved Items</p>

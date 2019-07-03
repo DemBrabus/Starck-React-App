@@ -53,7 +53,11 @@ a {
           align-items: center;
 }
 
-.FullNav-TopRow .FullNav-UserLinks-Wrapper .FullNav-Registration {
+.FullNav-TopRow .FullNav-UserLinks-Wrapper .FullNav-RegistrationLink {
+  color: #585858;
+}
+
+.FullNav-TopRow .FullNav-UserLinks-Wrapper .FullNav-RegistrationLink .FullNav-Registration {
   font-size: 14px;
   font-weight: 600;
   margin-right: 30px;

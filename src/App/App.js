@@ -21,6 +21,10 @@ import Research from '../Pages/Research/Research';
 import Inspiration from '../Pages/Inspiration/Inspiration';
 import About from '../Pages/About/About';
 import Landing from '../Pages/Landing/Landing';
+import ContactUs from '../Pages/ContactUs/ContactUs';
+import Store from '../Pages/Store/Store';
+import Dealer from '../Pages/Dealer/Dealer';
+import Registration from '../Pages/Registration/Registration';
 
 
 
@@ -36,7 +40,6 @@ export default class App extends Component {
           FooterTab2: false,
           FooterTab3: false,
           FooterTab4: false,
-          FooterTab5: false,
 
     }
   }
@@ -66,6 +69,45 @@ export default class App extends Component {
           this.setState({UserDrawerIsOpen: false});
       }
 
+  //MobileFooterTabs--------
+      //FooterTab1
+        const ToggleFooterTab1 = () => {
+          this.setState((prevState) => {
+            return {FooterTab1: !prevState.FooterTab1}
+          });
+        }
+        const CloseFooterTab1 = () => {
+        this.setState({FooterTab1: false});
+        }
+      //FooterTab2
+        const ToggleFooterTab2 = () => {
+            this.setState((prevState) => {
+              return {FooterTab2: !prevState.FooterTab2}
+            });
+        }
+        const CloseFooterTab2 = () => {
+          this.setState({FooterTab2: false});
+        }
+      //FooterTab3
+        const ToggleFooterTab3 = () => {
+          this.setState((prevState) => {
+            return {FooterTab3: !prevState.FooterTab3}
+          });
+        }
+        const CloseFooterTab3 = () => {
+          this.setState({FooterTab3: false});
+        }
+      //FooterTab4
+        const ToggleFooterTab4 = () => {
+          this.setState((prevState) => {
+            return {FooterTab4: !prevState.FooterTab4}
+          });
+        }
+        const CloseFooterTab4 = () => {
+          this.setState({FooterTab4: false});
+        }
+       
+
     //MobileOverlay
     let MOverlay;
       if(this.state.NavDrawerIsOpen === true || this.state.UserDrawerIsOpen === true){
@@ -86,12 +128,16 @@ export default class App extends Component {
                 <MobileNav 
                     ToggleNavDrawer={ToggleNavDrawer} 
                     ToggleUserDrawer={ToggleUserDrawer} 
-                    NavDrawerStats={this.state.NavDrawerIsOpen} 
+                    NavDrawerStatus={this.state.NavDrawerIsOpen} 
                     UserDrawerStatus={this.state.UserDrawerIsOpen}/>
 
                 <NavDrawer 
                     NavDrawerIsOpen={this.state.NavDrawerIsOpen}
-                    CloseNavDrawer={CloseNavDrawer} />
+                    CloseNavDrawer={CloseNavDrawer}
+                    CloseFooterTab1={CloseFooterTab1}
+                    CloseFooterTab2={CloseFooterTab2}
+                    CloseFooterTab3={CloseFooterTab3}
+                    CloseFooterTab4={CloseFooterTab4} />
                 <UserDrawer 
                     UserDrawerIsOpen={this.state.UserDrawerIsOpen}
                     CloseUserDrawer={CloseUserDrawer}/>
@@ -117,6 +163,18 @@ export default class App extends Component {
               <Route 
                   path='/about' 
                   component={About} />
+              <Route 
+                  path='/contact' 
+                  component={ContactUs} />
+               <Route 
+                  path='/store' 
+                  component={Store} />
+              <Route 
+                  path='/find-a-dealer' 
+                  component={Dealer} />
+              <Route 
+                  path='/registration' 
+                  component={Registration} />
               
 
 
@@ -124,7 +182,19 @@ export default class App extends Component {
           </div>
 
               <FullFooter />
-              <MobileFooter />
+              <MobileFooter ToggleFooterTab1={ToggleFooterTab1}
+                            ToggleFooterTab2={ToggleFooterTab2}
+                            ToggleFooterTab3={ToggleFooterTab3}
+                            ToggleFooterTab4={ToggleFooterTab4}
+                            FooterTab1Status={this.state.FooterTab1}
+                            FooterTab2Status={this.state.FooterTab2}
+                            FooterTab3Status={this.state.FooterTab3}
+                            FooterTab4Status={this.state.FooterTab4}
+                            NavDrawerStatus={this.state.NavDrawerIsOpen} 
+                            UserDrawerStatus={this.state.UserDrawerIsOpen}
+                            CloseNavDrawer={CloseNavDrawer} 
+                            CloseUserDrawer={CloseUserDrawer}
+                            />
 
               {MOverlay} 
 

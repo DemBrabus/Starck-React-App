@@ -2,7 +2,7 @@ import React from 'react';
 import './MobileNav.scss';
 import { Link } from 'react-router-dom';
 
-export default function MobileNav({ ToggleNavDrawer, ToggleUserDrawer, NvaDrawerStatus,UserDrawerStatus}) {
+export default function MobileNav({ ToggleNavDrawer, ToggleUserDrawer }) {
     return (
         <div className='MobileNav'>
 

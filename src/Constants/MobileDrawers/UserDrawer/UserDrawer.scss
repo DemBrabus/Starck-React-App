@@ -32,11 +32,12 @@
     align-items: center;
     justify-content: center;
 
-    .UserDrawer-RegistrationText {
-
-        .UserDrawer-RegistrationTextLink {
+    .UserDrawer-RegistrationTextLink {
         color: #585858;
         text-decoration: none;
+        
+        .UserDrawer-RegistrationText {
+        
         font-size: 17px;
         font-weight: 600;
         cursor: pointer;

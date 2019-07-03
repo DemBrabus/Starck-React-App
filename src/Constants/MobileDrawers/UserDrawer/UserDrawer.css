@@ -44,9 +44,12 @@
           justify-content: center;
 }
 
-.UserDrawer-RegistrationBlock .UserDrawer-RegistrationText .UserDrawer-RegistrationTextLink {
+.UserDrawer-RegistrationBlock .UserDrawer-RegistrationTextLink {
   color: #585858;
   text-decoration: none;
+}
+
+.UserDrawer-RegistrationBlock .UserDrawer-RegistrationTextLink .UserDrawer-RegistrationText {
   font-size: 17px;
   font-weight: 600;
   cursor: pointer;

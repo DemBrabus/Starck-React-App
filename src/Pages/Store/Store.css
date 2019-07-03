@@ -1,0 +1,12 @@
+.Store {
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .Store {
+    margin-top: 60px;
+  }
+}
+/*# sourceMappingURL=Store.css.map */
