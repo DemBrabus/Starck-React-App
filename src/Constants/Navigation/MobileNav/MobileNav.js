@@ -1,5 +1,6 @@
 import React from 'react';
 import './MobileNav.scss';
+import { Link } from 'react-router-dom';
 
 export default function MobileNav({ ToggleNavDrawer, ToggleUserDrawer, NvaDrawerStatus,UserDrawerStatus}) {
     return (
@@ -11,7 +12,9 @@ export default function MobileNav({ ToggleNavDrawer, ToggleUserDrawer, NvaDrawer
                 <div className='MobileNav-MenuIcon-Bar'></div>
             </div>
 
-            <h1 className='MobileNav-Logo'>Starck</h1>
+            <Link to='/' >
+                <h1 className='MobileNav-Logo'>Starck</h1>
+            </Link>
             
             <div className='MobileNav-UserIcon' onClick={ToggleUserDrawer}>
 

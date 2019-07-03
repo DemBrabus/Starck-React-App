@@ -1,0 +1,107 @@
+.FullFooter {
+  width: 100%;
+  height: 330px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.FullFooter-Wrapper {
+  width: 100%;
+  max-width: 1170px;
+  height: 100%;
+  position: relative;
+  background-color: #f5f7f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.FullFooter-Links {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.FullFooter-Links .FullFooter-LinksColumn {
+  margin-right: 90px;
+  padding-top: 50px;
+}
+
+.FullFooter-Links .FullFooter-LinksColumn .FullFooter-ListItem {
+  padding-top: 10px;
+  white-space: nowrap;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.FullFooter-Social {
+  padding-top: 50px;
+}
+
+.FullFooter-Social .FullFooter-SocialTags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.FullFooter-Social .FullFooter-SocialTags .FullFooter-SocialTag {
+  width: 20px;
+  height: 20px;
+  background-color: #4f4f4f;
+  margin-right: 30px;
+  border-radius: 5px;
+}
+
+.FullFooter-Social .FulLFooter-ContactUsText {
+  font-size: 14px;
+  font-weight: 500;
+  color: #b8b8b8;
+  width: 250px;
+}
+
+.FullFooter-CopyRight {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 14px;
+  color: #b8b8b8;
+}
+
+.FullFooter-Title {
+  font-size: 14px;
+  font-weight: 400;
+  color: #b8b8b8;
+  white-space: nowrap;
+  margin-bottom: 10px;
+}
+
+.FullFooter-List {
+  list-style: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .FullFooter-Wrapper {
+    max-width: 980px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .FullFooter {
+    display: none;
+  }
+}
+/*# sourceMappingURL=FullFooter.css.map */

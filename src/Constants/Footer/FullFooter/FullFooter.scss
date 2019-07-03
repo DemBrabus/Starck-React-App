@@ -1,0 +1,103 @@
+.FullFooter {
+    width: 100%;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.FullFooter-Wrapper {
+    width: 100%;
+    max-width: 1170px;
+    height: 100%; 
+    position: relative;
+    background-color: rgb(245, 247, 247);
+    display: flex;
+    justify-content: space-between;
+}
+
+    .FullFooter-Links {
+        height: 100%;
+        display: flex;
+
+        .FullFooter-LinksColumn {
+            margin-right: 90px;
+            padding-top: 50px;
+
+            .FullFooterLinksTitle {
+                
+            }
+
+            .FullFooter-ListItem {
+                padding-top: 10px;
+                white-space: nowrap;
+                font-size: 13px;
+                font-weight: 600;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .FullFooter-Social {
+        padding-top: 50px;
+
+        .FullFooter-SocialTags {
+            display: flex;
+            margin-bottom: 20px;
+            margin-top: 20px;
+
+            .FullFooter-SocialTag {
+                width: 20px;
+                height: 20px;
+                background-color: rgb(79, 79, 79);;
+                margin-right: 30px;
+                border-radius: 5px;
+            }
+        }
+
+        .FulLFooter-ContactUsText {
+            font-size: 14px;
+            font-weight: 500;
+            color: rgb(184, 184, 184); 
+            width: 250px;
+        }
+    }
+
+    .FullFooter-CopyRight {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 14px;
+        color: rgb(184, 184, 184);
+    }
+
+
+
+
+
+.FullFooter-Title {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(184, 184, 184);
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+
+.FullFooter-List {
+    list-style: none;
+}
+
+
+@media screen and (max-width: 1200px){
+  .FullFooter-Wrapper {
+    max-width: 980px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+    .FullFooter {
+        display: none;
+    }
+}

@@ -11,7 +11,7 @@ export default function UserDrawer({ UserDrawerIsOpen, CloseUserDrawer }) {
         <div className={UserDrawerClasses}>
             <div className='UserDrawer-Wrapper'>
                 <div className='UserDrawer-RegistrationBlock'>
-                    <p className='UserDrawer-RegistrationText'><a href='#'className='UserDrawer-RegistrationTextLink' onClick={CloseUserDrawer}>Login / Register</a></p>
+                    <p className='UserDrawer-RegistrationText'><a href='/'className='UserDrawer-RegistrationTextLink' onClick={CloseUserDrawer}>Login / Register</a></p>
                 </div>
                 <div className='UserDrawer-SavedItemsBlock'>
                     <p className='UserDrawer-SavedItems-Text'>Saved Items</p>

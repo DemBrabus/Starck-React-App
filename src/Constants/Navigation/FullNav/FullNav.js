@@ -1,12 +1,15 @@
 import React from 'react';
 import './FullNav.scss';
+import { Link } from 'react-router-dom';
 
 export default function FullNav() {
     return (
         <div className='FullNav'>
             <div className='FullNav-Wrapper'>
                 <div className='FullNav-TopRow'>
-                    <h1 className='FullNav-Logo'>Starck</h1>
+                    <Link to='/'>
+                        <h1 className='FullNav-Logo'>Starck</h1>
+                    </Link>
                     <div className='FullNav-UserLinks-Wrapper'>
                         <p className='FullNav-Registration'>Login / Register</p>
                         <div className='FullNav-ContactBtn'>
@@ -16,10 +19,22 @@ export default function FullNav() {
                 </div>
                 <div className='FullNav-BottomRow'>
                     <div className='FullNav-Links-Wrapper'>
-                        <p className='FullNav-Link'>Products</p>
-                        <p className='FullNav-Link'>Research</p>
-                        <p className='FullNav-Link'>Inspiration</p>
-                        <p className='FullNav-Link'>About</p>
+                        <Link to='/main-product-page'>
+                            <p className='FullNav-Link'>Products</p>
+                        </Link>
+                        <Link to='/research'>
+                            <p className='FullNav-Link'>Research</p>
+                        </Link>
+                        <Link to='/inspiration'>
+                            <p className='FullNav-Link'>Inspiration</p>
+                        </Link>
+                        <Link to='/about'>
+                            <p className='FullNav-Link'>About</p>
+                        </Link>
+                        
+                        
+                        
+                        
                     </div>
 
                     <div className='FullNav-Dealer-Wrapper'>

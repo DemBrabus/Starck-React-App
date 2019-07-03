@@ -1,12 +1,12 @@
-.MainProductPage {
+.Landing {
   width: 100%;
   margin-top: 100px;
   text-align: center;
 }
 
 @media screen and (max-width: 1000px) {
-  .MainProductPage {
+  .Landing {
     margin-top: 60px;
   }
 }
-/*# sourceMappingURL=MainProductPage.css.map */
+/*# sourceMappingURL=Landing.css.map */

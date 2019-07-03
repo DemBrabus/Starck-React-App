@@ -1,12 +1,16 @@
 .FullNav {
     width: 100%;
     height: 100px;
+    background-color: #FFF;
     border-bottom: 2px solid #e3e3e3;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 90;
 }
+    a {
+        text-decoration: none;
+    }
 
 .FullNav-Wrapper {
     max-width: 1170px;
@@ -26,6 +30,7 @@
     font-size: 36px;
     font-weight: 600;
     cursor: pointer;
+    color: #585858;
   }
 
   .FullNav-UserLinks-Wrapper {

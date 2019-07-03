@@ -1,5 +1,6 @@
 import React from 'react';
 import './NavDrawer.scss';
+import { Link } from 'react-router-dom';
 
 export default function NavDrawer({ NavDrawerIsOpen, CloseNavDrawer }) {
 
@@ -12,15 +13,59 @@ export default function NavDrawer({ NavDrawerIsOpen, CloseNavDrawer }) {
         <div className={NavDrawerClasses}>
             <div className='NavDrawer-Wrapper'>
                 <ul className='NavDrawer-List'>
-                    <li className='NavDrawer-ListItem'><a href='#' className='NavDrawer-ListItemLink' onClick={CloseNavDrawer}>Products<div className='NavDrawer-ListItemLinkIcon'></div></a></li>
+                    <Link to='/main-product-page' className='NavDrawer-ListLink'>
+                        <li className='NavDrawer-ListItem' onClick={CloseNavDrawer}>
+                            
+                                    Products
+                                    <div className='NavDrawer-ListItemLinkIcon'>
+                                    </div>
+                            
+                        </li>
+                    </Link>
+                    <Link to='/research' className='NavDrawer-ListLink'>
+                        <li className='NavDrawer-ListItem' onClick={CloseNavDrawer}>
+                            
+                                    Research
+                                    <div className='NavDrawer-ListItemLinkIcon'>
+                                    </div>
+                           
+                        </li>
+                    </Link>
+                    <Link to='/inspiration' className='NavDrawer-ListLink'>
+                        <li className='NavDrawer-ListItem' onClick={CloseNavDrawer}>
+                            
+                                    Inspiration
+                                    <div className='NavDrawer-ListItemLinkIcon'>
+                                    </div>
+                            
+                        </li>
+                    </Link>
+                    <Link to='/about' className='NavDrawer-ListLink'>
+                        <li className='NavDrawer-ListItem' onClick={CloseNavDrawer}>
+                           
+                                    About
+                                    <div className='NavDrawer-ListItemLinkIcon'>
+                                    </div>
+                        
+                        </li>
+                    </Link>
+                    
+                    <Link to='/find-a-dealer' className='NavDrawer-ListLink'>
+                        <li className='NavDrawer-ListItem NavDrawer-Dealer' onClick={CloseNavDrawer}>
+                            
+                                    Find A Dealer
+                                    <div className='NavDrawer-ListItemLinkIcon'>
+                                    </div>
+                           
+                        </li>
+                    </Link>
+                    
 
-                    <li className='NavDrawer-ListItem'><a href='#' className='NavDrawer-ListItemLink' onClick={CloseNavDrawer}>Research<div className='NavDrawer-ListItemLinkIcon'></div></a></li>
+                    
 
-                    <li className='NavDrawer-ListItem'><a href='#' className='NavDrawer-ListItemLink' onClick={CloseNavDrawer}>Inspiration<div className='NavDrawer-ListItemLinkIcon'></div></a></li>
+                    
 
-                    <li className='NavDrawer-ListItem'><a href='#' className='NavDrawer-ListItemLink' onClick={CloseNavDrawer}>About<div className='NavDrawer-ListItemLinkIcon'></div></a></li>
-
-                    <li className='NavDrawer-ListItem '><a href='#' className='NavDrawer-ListItemLink NavDrawer-Dealer' onClick={CloseNavDrawer}>Find A Dealer<div className='NavDrawer-ListItemLinkIcon'></div></a></li>
+                    
                 </ul>
             </div>
             

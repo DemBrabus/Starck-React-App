@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACN,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,KAAK;EACjB,UAAU,EAAE,MAAM;CAErB;;AAID,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAChC,AAAA,SAAS,CAAC;IACN,UAAU,EAAE,IAAI;GACnB",
+    "sources": [
+        "Research.scss"
+    ],
+    "names": [],
+    "file": "Research.css"
+}

@@ -1,7 +1,7 @@
 .UserDrawer {
   width: 320px;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   right: -100%;
   top: 0;
   display: -webkit-box;
@@ -82,5 +82,14 @@
   background-color: #585858;
   margin-right: 15px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 350px) {
+  .UserDrawer {
+    width: 280px;
+  }
+  .UserDrawer-Wrapper {
+    width: 265px;
+  }
 }
 /*# sourceMappingURL=UserDrawer.css.map */
