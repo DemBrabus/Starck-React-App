@@ -95,7 +95,7 @@ export default class App extends Component {
                 <UserDrawer 
                     UserDrawerIsOpen={this.state.UserDrawerIsOpen}
                     CloseUserDrawer={CloseUserDrawer}/>
-                    {MOverlay}      
+                         
 
           <div className='App-Wrapper'>
             <Switch>
@@ -125,6 +125,8 @@ export default class App extends Component {
 
               <FullFooter />
               <MobileFooter />
+
+              {MOverlay} 
 
         </div>
           </ScrollToTop>

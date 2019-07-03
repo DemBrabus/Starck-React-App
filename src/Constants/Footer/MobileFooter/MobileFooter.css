@@ -1,7 +1,10 @@
 .MobileFooter {
   width: 100%;
-  position: relative;
   display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 90;
 }
 
 .MobileFooter-Wrapper {
