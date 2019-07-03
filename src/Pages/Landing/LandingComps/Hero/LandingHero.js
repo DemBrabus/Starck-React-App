@@ -15,6 +15,9 @@ export default function LandingHero() {
                         </div>
                     </div>
                 </div>
+                <div className='LandingHero-ImageBox'>
+                    
+                </div>
             </div>
         </div>
     )
