@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACN,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,OAAkB;CACvC;;AAED,AAAA,iBAAiB,CAAC;EACd,KAAK,EAAE,IAAI;CAEd;;AAED,AAAA,qBAAqB,CAAC;EAClB,KAAK,EAAE,GAAG;CAOb;;AARD,AAGI,qBAHiB,CAGjB,eAAe,CAAC;EACZ,SAAS,EAAE,IAAI;EACf,KAAK,EAAC,OAAO;EACb,WAAW,EAAE,GAAG;CACnB",
+    "sources": [
+        "WhatsNew.scss"
+    ],
+    "names": [],
+    "file": "WhatsNew.css"
+}

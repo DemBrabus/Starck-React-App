@@ -1,0 +1,19 @@
+.WhatsNew {
+  width: 100%;
+  background-color: #eaeaea;
+}
+
+.WhatsNew-Content {
+  width: 100%;
+}
+
+.WhatsNew-TextSection {
+  width: 45%;
+}
+
+.WhatsNew-TextSection .WhatsNew-Title {
+  font-size: 22px;
+  color: #191919;
+  font-weight: 800;
+}
+/*# sourceMappingURL=WhatsNew.css.map */

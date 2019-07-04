@@ -1,4 +1,179 @@
 .LandingHero {
     width: 100%;
+}
+
+.LandingHero-Content {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5px;
+    display: flex;
+
+}
+
+.LandingHero-BlueBox {
+    width: 450px;
+    height: 450px;
+    background-color: rgb(51, 78, 126);
+    position: relative;
+
+    .LandingHero-BlueBox-WhiteBox {
+        width: 255px;
+        height: 175px;
+        padding: 20px;
+        background-color: #FFF;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 60px;
+        margin-left: 30px;
+
+        .LandingHero-BlueBox-WhiteBox-Title {
+            font-size: 18px;
+            font-weight: 800;
+            color: #191919;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .LandingHero-BlueBox-WhiteBox-Text {
+            font-size: 14px;
+            font-weight: 400;
+            color: #9a9a9a;
+            margin-bottom: 20px;
+        }
+
+        .LandingHero-BlueBox-WhiteBox-Button {
+            width: 100%;
+            height: 30px;
+            background-color: #848484;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .LandingHero-BlueBox-WhiteBox-ButtonText {
+                color: #fff;
+                font-size: 12px;
+                font-weight: 600;
+                margin-left: 20px;
+            }
+
+            .LandingHero-BlueBox-WhiteBox-ButtonIcon {
+                width: 5px;
+                height: 12px;
+                background-color: #FFF;
+                margin-right: 20px;
+
+            }
+        }
+    }
+}
+
+.LandingHero-ImageBox {
+    width: 62%;
+    width: 720px;
+    height: 450px;
+    background: url('../../../../Assets/Images/Landing-Hero.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.LandingHero-MobileContent {
+    width: 60%;
+    margin-top: 10px;
+    padding: 0 30px;
+    display: none;
+
+    .LandingHero-MobileTitle {
+        font-size: 14px;
+        font-weight: 800;
+        color: #191919;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+
+    .LandingHero-MobileText {
+        font-size: 14px;
+        font-weight: 400;
+        color: #9a9a9a;
+        margin-bottom: 10px;
+    }
+
+    .LandingHero-Mobile-Button {
+        width: 175px;
+        height: 30px;
+        background-color: #848484;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .LandingHero-Mobile-ButtonText {
+            color: #fff;
+            font-size: 12px;
+            font-weight: 600;
+            margin-left: 20px;
+        }
+
+        .LandingHero-Mobile-ButtonIcon {
+            width: 5px;
+            height: 12px;
+            background-color: #FFF;
+            margin-right: 20px;
+
+        }
+    }
+}
+
+
+@media screen and (max-width: 1200px){
+    .LandingHero {
+        height: 375px;
+    }
+    .LandingHero-BlueBox {
+        width: 375px;
+        height: 375px;
+    }
+    .LandingHero-ImageBox {
+        height: 375px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .LandingHero {
+        height: 40vw;
+    }
+    .LandingHero-BlueBox {
+        width: 40vw;
+        height: 40vw;
+    }
+    .LandingHero-BlueBox-WhiteBox {
+        display: none;
+    }
+    .LandingHero-MobileContent {
+        display: block;
+    }
+    .LandingHero-ImageBox {
+        height: 40vw;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .LandingHero-BlueBox {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .LandingHero-MobileContent {
+        width: 90%;
+    }
     
+}
+
+@media screen and (max-width: 500px){
+    .LandingHero-BlueBox {
+        width: 120vw;
+    }
 }
