@@ -1,0 +1,123 @@
+.Featured {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.Featured-Content {
+  width: 100%;
+}
+
+.Featured-Title {
+  font-size: 28px;
+  color: #191919;
+  font-weight: 800;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.Featured-CardWrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Featured-Card {
+  width: 32%;
+}
+
+.Featured-CardImage {
+  width: 100%;
+  height: 325px;
+}
+
+.Featured-CardImage1 {
+  background: url("../../../../Assets/Images/FeaturedProduct1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Featured-CardImage2 {
+  background: url("../../../../Assets/Images/FeaturedProduct2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Featured-CardImage3 {
+  background: url("../../../../Assets/Images/FeaturedProduct3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Featured-Card-TextBox {
+  padding: 20px;
+  padding-left: 30px;
+}
+
+.Featured-CardTitle {
+  font-size: 18px;
+  color: #191919;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.Featured-CardText {
+  font-size: 14px;
+  color: #9a9a9a;
+}
+
+@media screen and (max-width: 1200px) {
+  .Featured-CardImage {
+    height: 275px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .Featured-CardImage {
+    height: 30vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Featured-CardWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Featured-Card {
+    width: 90%;
+    margin-bottom: 40px;
+  }
+  .Featured-CardImage {
+    height: 50vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .Featured-CardWrapper {
+    padding: 0;
+  }
+  .Featured-Card {
+    width: 100%;
+  }
+  .Featured-Title {
+    font-size: 24px;
+  }
+  .Featured-CardImage {
+    height: 60vw;
+  }
+  .Featured-Card-TextBox {
+    padding: 20px 30px;
+  }
+}
+/*# sourceMappingURL=Featured.css.map */

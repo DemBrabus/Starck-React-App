@@ -1,5 +1,6 @@
 .LandingHero {
     width: 100%;
+    margin-bottom: 40px;
 }
 
 .LandingHero-Content {
@@ -13,7 +14,10 @@
 .LandingHero-BlueBox {
     width: 450px;
     height: 450px;
-    background-color: rgb(51, 78, 126);
+    background: url('../../../../Assets/Images/HeroArt.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
 
     .LandingHero-BlueBox-WhiteBox {
@@ -138,6 +142,56 @@
     .LandingHero-ImageBox {
         height: 375px;
     }
+     .LandingHero-BlueBox-WhiteBox {
+        width: 200px;
+        height: 120px;
+        padding: 15px;
+        background-color: #FFF;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 60px;
+        margin-left: 30px;
+
+        .LandingHero-BlueBox-WhiteBox-Title {
+            font-size: 18px;
+            font-weight: 800;
+            color: #191919;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .LandingHero-BlueBox-WhiteBox-Text {
+            font-size: 14px;
+            font-weight: 400;
+            color: #9a9a9a;
+            margin-bottom: 20px;
+        }
+
+        .LandingHero-BlueBox-WhiteBox-Button {
+            width: 100%;
+            height: 30px;
+            background-color: #848484;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .LandingHero-BlueBox-WhiteBox-ButtonText {
+                color: #fff;
+                font-size: 12px;
+                font-weight: 600;
+                margin-left: 20px;
+            }
+
+            .LandingHero-BlueBox-WhiteBox-ButtonIcon {
+                width: 5px;
+                height: 12px;
+                background-color: #FFF;
+                margin-right: 20px;
+
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 1000px){
@@ -157,8 +211,10 @@
     .LandingHero-ImageBox {
         height: 40vw;
     }
+    #LandingHero-Mobile-Button {
+        height: 25px;
+    }
 }
-
 @media screen and (max-width: 800px){
     .LandingHero-BlueBox {
         width: 60vw;
