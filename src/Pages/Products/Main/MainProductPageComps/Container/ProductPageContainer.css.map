@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,qBAAqB,CAAC;EAClB,KAAK,EAAE,IAAI;CACd;;AAED,AAAA,6BAA6B,CAAC;EAC1B,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;CAChB;;AAGD,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAChC,AAAA,6BAA6B,CAAC;IAC1B,cAAc,EAAE,MAAM;IACtB,WAAW,EAAE,MAAM;GACtB",
+    "sources": [
+        "ProductPageContainer.scss"
+    ],
+    "names": [],
+    "file": "ProductPageContainer.css"
+}

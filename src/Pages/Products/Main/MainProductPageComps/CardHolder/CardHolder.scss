@@ -1,0 +1,117 @@
+.CardHolder {
+    width: 100%;
+    margin-left: 50px;
+}
+
+.CardHolder-Content {
+    width: 100%;
+}
+
+.CardHolder-Row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Product-Card {
+    width: 35%;
+}
+
+.CardImage {
+    width: 100%;
+    height: 300px;
+}
+    .CardImage1{
+        background: url('../../../../../Assets/Images/ProductPage/ProductImage1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .CardImage2{
+        background: url('../../../../../Assets/Images/ProductPage/ProductImage2.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .CardImage3{
+        background: url('../../../../../Assets/Images/ProductPage/ProductImage3.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .CardImage4{
+        background: url('../../../../../Assets/Images/ProductPage/ProductImage4.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .CardImage5{
+        background: url('../../../../../Assets/Images/ProductPage/ProductImage5.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .CardImage6{
+        background: url('../../../../../Assets/Images/ProductPage/ProductImage6.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+.Card-TextBox {
+    padding: 20px;
+}
+
+.Card-Logo {
+    font-size: 14px;
+    color: #9a9a9a;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.Card-Title {
+    font-size: 18px;
+    color: #191919;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.Card-Text {
+    color: #9a9a9a;
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .CardHolder {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .CardHolder-Row {
+        flex-direction: column;
+    }
+    .Product-Card {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .CardImage1 {
+background-size: contain;
+    }
+    .CardImage2 {
+        background-size: contain;
+    }
+    .CardImage3 {
+        background-size: contain;
+    }
+    .CardImage4 {
+        background-size: contain;
+    }
+    .CardImage5 {
+        background-size: contain;
+    }
+    .CardImage6 {
+        background-size: contain;
+    }
+}

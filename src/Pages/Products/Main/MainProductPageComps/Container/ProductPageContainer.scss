@@ -1,0 +1,16 @@
+.ProductPageContainer {
+    width: 100%;
+}
+
+.ProductPageContainer-Wrapper {
+    width: 100%;
+    display: flex;
+}
+
+
+@media screen and (max-width: 1000px){
+    .ProductPageContainer-Wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}

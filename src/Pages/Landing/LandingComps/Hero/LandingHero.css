@@ -15,7 +15,7 @@
 .LandingHero-BlueBox {
   width: 450px;
   height: 450px;
-  background: url("../../../../Assets/Images/HeroArt.png");
+  background: url("../../../../Assets/Images/Landing/HeroArt.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -82,7 +82,7 @@
   width: 62%;
   width: 720px;
   height: 450px;
-  background: url("../../../../Assets/Images/Landing-Hero.png");
+  background: url("../../../../Assets/Images/Landing/Landing-Hero.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

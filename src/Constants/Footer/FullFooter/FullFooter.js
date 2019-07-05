@@ -53,7 +53,7 @@ export default function FullFooter() {
                     <p className='FulLFooter-ContactUsText'>We would love to hear from you! Contact us for sales requests, career information, investor relations, corporate information, or general questions.</p>
                 </div>
 
-                <p className='FullFooter-CopyRight'>2019 © NameLogo. All rights reserved.</p>
+                <p className='FullFooter-CopyRight'>2019 © Starck. All Rights Reserved.</p>
 
             </div>
         </div>

@@ -16,7 +16,7 @@ import FullFooter from '../Constants/Footer/FullFooter/FullFooter';
 import MobileFooter from '../Constants/Footer/MobileFooter/MobileFooter';
 
 //Pages
-import MainProductPage from '../Pages/Products/Main/MainProductPage';
+import ProductPage from '../Pages/Products/Main/ProductPage';
 import Research from '../Pages/Research/Research';
 import Inspiration from '../Pages/Inspiration/Inspiration';
 import About from '../Pages/About/About';
@@ -153,7 +153,7 @@ export default class App extends Component {
                   component={Landing} />
               <Route 
                   path='/main-product-page' 
-                  component={MainProductPage} />
+                  component={ProductPage} />
               <Route 
                   path='/research' 
                   component={Research} />

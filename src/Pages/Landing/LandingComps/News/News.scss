@@ -1,13 +1,12 @@
-.Featured {
+.News {
     width: 100%;
-    margin-bottom: 60px;
 }
 
-.Featured-Content {
+.News-Content {
     width: 100%
 }
 
-.Featured-Title {
+.News-Title {
     font-size: 28px;
     color:#191919;
     font-weight: 800;
@@ -15,57 +14,63 @@
     margin-bottom: 20px;
 }
 
-.Featured-CardWrapper {
+.News-CardWrapper {
     width: 100%;
     display: flex;
     justify-content: space-between;
 
 }
 
-.Featured-Card {
-    width: 32%
+.News-Card {
+    width: 32%;
 }
 
-.Featured-CardImage {
+.News-CardImage {
     width: 100%;
     height: 325px;
-    
+    margin-bottom: 20px;
 }
 
-    .Featured-CardImage1 {
-        background: url('../../../../Assets/Images/Landing/FeaturedProduct1.png');
+    .News-CardImage1 {
+        background: url('../../../../Assets/Images/Landing/LandingNews1.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
-    .Featured-CardImage2 {
-        background: url('../../../../Assets/Images/Landing/FeaturedProduct2.png');
+    .News-CardImage2 {
+        background: url('../../../../Assets/Images/Landing/LandingNews2.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
-    .Featured-CardImage3 {
-        background: url('../../../../Assets/Images/Landing/FeaturedProduct3.png');
+    .News-CardImage3 {
+        background: url('../../../../Assets/Images/Landing/LandingNews3.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
-   
 
-.Featured-Card-TextBox {
+.News-Card-TextBox {
     padding: 20px;
     padding-left: 30px;
     
 }
 
-.Featured-CardTitle {
+.News-CardDate {
+    font-size: 14px;
+    color: #9a9a9a;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.News-CardTitle {
     font-size: 18px;
     color: #191919;
     font-weight: 800;
     margin-bottom: 10px;
 }
 
-.Featured-CardText {
+.News-CardText {
     font-size: 14px;
     color: #9a9a9a;
 }
@@ -73,46 +78,46 @@
 
 
 @media screen and (max-width: 1200px){
-    .Featured-CardImage {
+    .News-CardImage {
         height: 275px;
     }
 }
 
 @media screen and (max-width: 1000px){
-    .Featured-CardImage {
+    .News-CardImage {
         height: 30vw;
     }
 }
 
 @media screen and (max-width: 600px){
-    .Featured-CardWrapper {
+    .News-CardWrapper {
         flex-direction: column;
         align-items: center;
     }
-    .Featured-Card {
+    .News-Card {
     width: 90%;
     margin-bottom: 40px;
     }   
-    .Featured-CardImage {
+    .News-CardImage {
         height: 50vw;
     }
 }
 
 @media screen and (max-width: 450px){
-    .Featured-CardWrapper {
+    .News-CardWrapper {
         padding: 0 
     }
-    .Featured-Card {
+    .News-Card {
     width: 100%
     }   
-    .Featured-Title {
+    .News-Title {
         font-size: 24px;
     }
 
-    .Featured-CardImage {
+    .News-CardImage {
         height: 60vw;
     }
-    .Featured-Card-TextBox {
+    .News-CardTextBox {
         padding: 20px 30px;
     }
 }
