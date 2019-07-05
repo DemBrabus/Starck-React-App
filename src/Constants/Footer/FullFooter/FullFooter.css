@@ -78,7 +78,8 @@
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: 600;
   color: #b8b8b8;
 }
 
