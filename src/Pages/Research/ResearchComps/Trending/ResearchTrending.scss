@@ -1,0 +1,87 @@
+.ResearchTrending {
+    width: 400px;
+    margin-left: 10px;
+}
+
+.ResearchTrending-Wrapper {
+    width: 100%;
+    text-align: left;
+}
+
+.ResearchTrending-Title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.ResearchTrending-Card {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.ResearchTrending-CardImage {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(227, 227, 227);
+}
+
+    .ResearchTrending-CardImage1 {
+        background: url('../../../../Assets/Images/Research/ResearchTrending1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .ResearchTrending-CardImage2 {
+        background: url('../../../../Assets/Images/Research/ResearchTrending2.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .ResearchTrending-CardImage3 {
+        background: url('../../../../Assets/Images/Research/ResearchTrending3.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .ResearchTrending-CardImage4 {
+        background: url('../../../../Assets/Images/Research/ResearchTrending4.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+.ResearchTrending-CardTextBox {
+    padding: 10px;
+}
+
+.ResearchTrending-CardCategory {
+    font-size: 14px;
+    color: #585858;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.ResearchTrending-CardTitle {
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #191919;
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .ResearchTrending {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .ResearchTrending {
+        display: none;
+    }
+}

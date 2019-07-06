@@ -1,0 +1,171 @@
+.MainGrid {
+    width: 100%;
+    margin-right: 10px;
+
+}
+
+.MainGrid-Wrapper {
+    width: 100%;
+}
+
+.MainGrid-Row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+}
+
+.Research-Card {
+    width: 48%;
+    position: relative;
+    cursor: pointer;
+
+}
+.Research-CardImage {
+    width: 100%;
+    height: 275px;
+    transition: all .3s ease-in-out;
+}   
+
+    .Research-CardActive {
+        height: 200px;
+    }
+
+    .Research-CardImage1 {
+        background: url('../../../../Assets/Images/Research//ResearchImage1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .Research-CardImage2 {
+        background: url('../../../../Assets/Images/Research//ResearchImage2.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .Research-CardImage3 {
+        background: url('../../../../Assets/Images/Research//ResearchImage3.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .Research-CardImage4 {
+        background: url('../../../../Assets/Images/Research//ResearchImage4.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .Research-CardImage5 {
+        background: url('../../../../Assets/Images/Research//ResearchImage5.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .Research-CardImage6 {
+        background: url('../../../../Assets/Images/Research//ResearchImage6.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .Research-CardImage7 {
+        background: url('../../../../Assets/Images/Research//ResearchImage7.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .Research-CardImage8 {
+        background: url('../../../../Assets/Images/Research//ResearchImage8.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+.Research-CardTextBox {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+
+}
+
+
+.Research-CardCategory {
+    font-size: 14px;
+    color: #585858;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.Research-CardTitle {
+    font-size: 24px;
+    color: #191919;
+    font-weight: 800;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.Research-CardText {
+    font-size: 16px;
+    color: #585858;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.Research-Card-Connect {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.Research-Card-ConnectItem {
+    width: 30px;
+    height: 30px;
+    background-color: #585858;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Research-CardTextCover {
+    width: 100%;
+    height: 50px;
+    background-color: #FFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 750px){
+    .MainGrid-Row {
+        flex-direction: column;
+    }
+    .Research-Card {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .Research-CardActive {
+        height: 275px;
+    }
+    .Research-CardTextCover {
+        display: none;
+    }
+    .Research-Card-Connect {
+        width: 175px;
+    }
+    .Research-CardTitle {
+        margin-right: 20px;
+    }
+    .Research-CardText {
+        margin-right: 20px;
+    }
+
+}
+

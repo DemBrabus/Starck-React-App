@@ -1,0 +1,11 @@
+.ResearchContainer {
+  width: 100%;
+}
+
+.ResearchContainer-Wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=ResearchContainer.css.map */
