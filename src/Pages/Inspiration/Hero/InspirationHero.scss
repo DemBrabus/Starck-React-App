@@ -1,0 +1,140 @@
+.InspirationHero {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.InspirationHero-Wrapper {
+    width: 100%;
+    text-align: left;
+}
+
+.InspirationHero-ImageBox {
+    width: 100%;
+    height: 400px;
+    background: url('../../../Assets/Images/Inspiration/InspirationHero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.InspirationHero-WhiteBox {
+    position: absolute;
+    width: 260px;
+    height: 140px;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding: 30px 20px;
+    padding-right: 10px;
+
+}
+
+.InspirationHero-WhiteBox-Title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #191919;
+    margin-bottom: 15px;
+}
+
+.InspirationHero-WhiteBox-Text {
+    font-size: 14px;
+    color: #9a9a9a;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.InspirationHero-WhiteBox-Button {
+    width: 200px;
+    height: 25px;
+    background-color: #848484;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.InspirationHero-WhiteBox-ButtonText {
+    font-size: 12px;
+    font-weight: 600;
+    color: #FFF;
+    margin-left: 20px;
+}
+
+.InspirationHero-WhiteBox-ButtonIcon {
+    width: 5px;
+    height: 12px;
+    background-color: #FFF;
+    margin-right: 20px;
+
+}
+
+.InspirationHero-MobileContent {
+    width: 60%;
+    margin-top: 10px;
+    padding: 0 30px;
+    display: none;
+}
+
+.InspirationHero-MobileTitle {
+    font-size: 14px;
+    font-weight: 800;
+    color: #191919;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.InspirationHero-MobileText {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9a9a9a;
+    margin-bottom: 10px;
+}
+
+.InspirationHero-Mobile-Button {
+    width: 175px;
+    height: 30px;
+    background-color: #848484;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.InspirationHero-Mobile-ButtonText {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.InspirationHero-Mobile-ButtonIcon {
+    width: 5px;
+    height: 12px;
+    background-color: #FFF;
+    margin-right: 20px;
+
+}
+
+
+@media screen and (max-width: 1000px){
+    .InspirationHero-ImageBox {
+        height: 40vw;
+    }
+    .InspirationHero-WhiteBox {
+        display: none;
+    }
+    .InspirationHero-MobileContent {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .InspirationHero-MobileContent {
+        width: 90%;
+    }
+    
+}

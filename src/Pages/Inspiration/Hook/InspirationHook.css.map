@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACb,KAAK,EAAE,IAAI;EACX,aAAa,EAAE,IAAI;CACtB;;AAED,AAAA,qBAAqB,CAAC;EAClB,OAAO,EAAE,KAAK;EACd,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,GAAG;CACnB;;AAGD,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAChC,AAAA,qBAAqB,CAAC;IAClB,SAAS,EAAE,IAAI;IACf,OAAO,EAAE,MAAM;GAClB",
+    "sources": [
+        "InspirationHook.scss"
+    ],
+    "names": [],
+    "file": "InspirationHook.css"
+}

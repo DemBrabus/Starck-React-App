@@ -50,7 +50,7 @@
 }
 
 .LandingHero-BlueBox .LandingHero-BlueBox-WhiteBox .LandingHero-BlueBox-WhiteBox-Button {
-  width: 100%;
+  width: 200px;
   height: 30px;
   background-color: #848484;
   display: -webkit-box;

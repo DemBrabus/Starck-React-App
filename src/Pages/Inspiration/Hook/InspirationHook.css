@@ -1,0 +1,19 @@
+.InspirationHook {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.InspirationHook-Text {
+  padding: 0 10%;
+  font-size: 24px;
+  color: #9a9a9a;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1000px) {
+  .InspirationHook-Text {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+}
+/*# sourceMappingURL=InspirationHook.css.map */
