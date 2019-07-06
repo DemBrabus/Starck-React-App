@@ -1,0 +1,89 @@
+.AboutHero {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.AboutHero-Wrapper {
+    width: 100%;
+    text-align: left;
+}
+
+.AboutHero-Image {
+    width: 100%;
+    height: 500px;
+    background: url('../../../Assets/Images/About/AboutHero.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.AboutHero-WhiteBox {
+    position: absolute;
+    width: 260px;
+    height: 120px;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding: 30px 20px;
+    padding-right: 10px;
+
+}
+
+.AboutHero-WhiteBox-Title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #191919;
+    margin-bottom: 15px;
+}
+
+.AboutHero-WhiteBox-Text {
+    font-size: 14px;
+    color: #9a9a9a;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.AboutHero-MobileContent {
+    width: 60%;
+    margin-top: 10px;
+    padding: 0 30px;
+    display: none;
+}
+
+.AboutHero-MobileTitle {
+    font-size: 14px;
+    font-weight: 800;
+    color: #191919;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.AboutHero-MobileText {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9a9a9a;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 1000px){
+    .AboutHero-Image {
+        height: 40vw;
+    }
+    .AboutHero-WhiteBox {
+        display: none;
+    }
+    .AboutHero-MobileContent {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .AboutHero-MobileContent {
+        width: 90%;
+    }
+    
+}

@@ -1,10 +1,58 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './About.scss';
+import AboutHero from './Hero/AboutHero';
+import AboutTabs from './Tabs/AboutTabs';
 
-export default function About() {
-    return (
-        <div className='About'>
-            <h1>About</h1>
-        </div>
-    )
+export default class About extends Component {
+    constructor(props){
+        super(props)
+        this.state = {
+            ActiveTab: 'who',
+        }
+
+        
+
+    }
+    render() {
+
+        const ToggleWhoWeAre = () => {
+            this.setState({ActiveTab: 'who'});
+        }
+
+        const ToggleOurHeritage = () => {
+            this.setState({ActiveTab: 'heritage'});
+        }
+
+        const ToggleOurValues = () => {
+            this.setState({ActiveTab: 'values'});
+        }
+
+        const ToggleOurLocation = () => {
+            this.setState({ActiveTab: 'location'});
+        }
+
+        console.log(this.state.ActiveTab);
+
+        return (
+            <div className='About'>
+                <div className='About-Wrapper'>
+
+                     <div className='About-TitleBlock'>
+                        <p className='About-Title'>Our Company</p>
+                    </div>
+
+
+                    <AboutHero />
+                    <AboutTabs ToggleWhoWeAre={ToggleWhoWeAre}
+                                ToggleOurHeritage={ToggleOurHeritage}
+                                ToggleOurValues={ToggleOurValues}
+                                ToggleOurLocation={ToggleOurLocation}
+                                
+                                ActiveTabStatus={this.state.ActiveTab} />
+
+                </div>
+            </div>
+        )
+    }
 }
+
