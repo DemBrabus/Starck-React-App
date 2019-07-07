@@ -11,7 +11,7 @@ export default function ProductPageMenu() {
             <div className='ProductPageMenu-Links'>
                 <div className='ProductPageMenu-Category'>
                     <p className='ProductPageMenu-LinksTitle'>Premium</p>
-                    <Link to='/'>
+                    <Link to='/silq-product-page'>
                         <p className='ProductPageMenu-Link'>SILQ</p>
                     </Link>
                 </div>

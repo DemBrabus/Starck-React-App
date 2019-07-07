@@ -1,0 +1,97 @@
+.SILQHero {
+    width: 100%;
+}
+
+.SILQHero-Wrapper {
+    width: 100%;
+
+}
+
+.SILQHero-Image {
+    width: 100%;
+    height: 450px;
+    background: url('../../../../../Assets/Images/SILQ/SILQHero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.SILQHero-WhiteBox {
+    width: 330px;
+    height: 200px;
+    background-color: #FFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+    margin-left: 30px; 
+}
+
+.SILQHero-WhiteBox-Top {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #585858
+}
+
+.SILQHero-WhiteBox-Title {
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.SILQHero-WhiteBox-TextWrap {
+    width: 100%;
+    height: 100%;
+}
+
+.SILQHero-WhiteBox-Text {
+    font-size: 14px;
+    color: #9a9a9a;
+    padding: 20px;
+    line-height: 20px;
+}
+
+.SILQHero-Mobile-TextBox {
+    width: 100%;
+    padding: 20px;
+    display: none;
+}
+
+.SILQHero-Mobile-Title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #191919;
+    margin-bottom: 10px;
+}
+
+.SILQHero-Mobile-Text {
+    font-size: 14px;
+    color: #9a9a9a;
+    width: 70%;
+    line-height: 20px;
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .SILQHero-Image {
+        height: 375px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .SILQHero-Mobile-TextBox {
+        display: block;
+    }
+    .SILQHero-WhiteBox {
+        display: none;
+    }
+    .SILQHero-Image {
+        height: 40vw;
+    }
+}
