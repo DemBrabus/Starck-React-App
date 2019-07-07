@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACF,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,KAAK;CACpB;;AAED,AAAA,aAAa,CAAC;EACV,KAAK,EAAE,IAAI;CACd;;AAGD,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAChC,AAAA,KAAK,CAAC;IACF,UAAU,EAAE,IAAI;GACnB",
+    "sources": [
+        "SILQ.scss"
+    ],
+    "names": [],
+    "file": "SILQ.css"
+}

@@ -25,6 +25,9 @@ import ContactUs from '../Pages/ContactUs/ContactUs';
 import Store from '../Pages/Store/Store';
 import Dealer from '../Pages/Dealer/Dealer';
 import Registration from '../Pages/Registration/Registration';
+import SILQ from '../Pages/Products/Individual/SILQ/SILQ';
+import Series1 from '../Pages/Products/Individual/SERIES1/Series1';
+import Gesture from '../Pages/Products/Individual/GESTURE/Gesture';
 
 
 
@@ -175,7 +178,24 @@ export default class App extends Component {
               <Route 
                   path='/registration' 
                   component={Registration} />
-              
+              <Route
+                  path='/silq-product-page'
+                  component={SILQ} />
+              <Route
+                  path='/series1-product-page'
+                  component={Series1}/>
+              <Route
+                  path='/gesture-product-page'
+                  component={Gesture} />
+              <Route
+                  path='/silq-product-page'
+                  component={SILQ} />
+              <Route
+                  path='/silq-product-page'
+                  component={SILQ} />
+              <Route
+                  path='/silq-product-page'
+                  component={SILQ} />
 
 
             </Switch>

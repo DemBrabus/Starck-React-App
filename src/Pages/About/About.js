@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './About.scss';
 import AboutHero from './Hero/AboutHero';
 import AboutTabs from './Tabs/AboutTabs';
+import AboutInfo from './Info/AboutInfo';
+import AboutClosing from './AboutClosing/AboutClosing';
 
 export default class About extends Component {
     constructor(props){
@@ -49,6 +51,10 @@ export default class About extends Component {
                                 ToggleOurLocation={ToggleOurLocation}
                                 
                                 ActiveTabStatus={this.state.ActiveTab} />
+                    <AboutInfo />
+                    <AboutClosing />
+
+
 
                 </div>
             </div>

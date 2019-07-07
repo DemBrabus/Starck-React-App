@@ -1,0 +1,82 @@
+.AboutClosing {
+    width: 100%;
+}
+
+.AboutClosing-Wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.AboutClosing-Image {
+    width: 60%;
+    height: 400px;
+    background: url('../../../Assets/Images/About/AboutClosing.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.AboutClosing-TextBox {
+    padding: 20px;
+    margin-left: 20px;
+    width: 40%;
+}
+
+.AboutClosing-Title {
+    font-size: 22px;
+    color: #191919;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+
+.AboutClosing-Text {
+    font-size: 16px;
+    color: #9a9a9a;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.AboutClosing-Button {
+    width: 180px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.AboutClosing-ButtonText {
+    color: #191919;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.AboutClosing-ButtonIcon {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #9a9a9a;
+}
+
+
+@media screen and (max-width: 1000px){
+    .AboutClosing-Wrapper {
+        flex-direction: column;
+    }
+    .AboutClosing-Image {
+        width: 100%;
+        height: 40vw;
+    }
+    .AboutClosing-TextBox {
+        width: 100%;
+    }
+    .AboutClosing-Text {
+        width: 60%;
+    }
+    .AboutClosing-Title {
+        margin-top: 10px;
+    }
+}
+

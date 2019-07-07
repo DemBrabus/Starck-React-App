@@ -24,6 +24,26 @@ export default function AboutTabs({ ToggleWhoWeAre, ToggleOurHeritage, ToggleOur
             Card4Classes = 'AboutTabs-Card AboutTabs-Card4 AboutTabs-CardActive';
         }
 
+        let Tab1Classes = 'AboutTabs-TabText';
+        if(ActiveTabStatus === 'who'){
+            Tab1Classes = 'AboutTabs-TabText AboutTabs-TabTextActive';
+        }
+
+        let Tab2Classes = 'AboutTabs-TabText';
+        if(ActiveTabStatus === 'heritage'){
+            Tab2Classes = 'AboutTabs-TabText AboutTabs-TabTextActive';
+        }
+
+        let Tab3Classes = 'AboutTabs-TabText';
+        if(ActiveTabStatus === 'values'){
+            Tab3Classes = 'AboutTabs-TabText AboutTabs-TabTextActive';
+        }
+
+        let Tab4Classes = 'AboutTabs-TabText';
+        if(ActiveTabStatus === 'location'){
+            Tab4Classes = 'AboutTabs-TabText AboutTabs-TabTextActive';
+        }
+
 
 
     return (
@@ -34,16 +54,16 @@ export default function AboutTabs({ ToggleWhoWeAre, ToggleOurHeritage, ToggleOur
 
                 <div className='AboutTabs-Tabs'>
                     <div className='AboutTabs-Tab AboutTabs-Tab1' onClick={ToggleWhoWeAre}>
-                        <p className='AboutTabs-TabText'>Who We Are</p>
+                        <p className={Tab1Classes}>Who We Are</p>
                     </div>
                     <div className='AboutTabs-Tab AboutTabs-Tab2' onClick={ToggleOurHeritage}>
-                        <p className='AboutTabs-TabText'>Our Heritage</p>
+                        <p className={Tab2Classes}>Our Heritage</p>
                     </div>
                     <div className='AboutTabs-Tab AboutTabs-Tab3' onClick={ToggleOurValues}>
-                        <p className='AboutTabs-TabText'>Our Values</p>
+                        <p className={Tab3Classes}>Our Values</p>
                     </div>
                     <div className='AboutTabs-Tab AboutTabs-Tab4' onClick={ToggleOurLocation}>
-                        <p className='AboutTabs-TabText'>Our Locations</p>
+                        <p className={Tab4Classes}>Our Locations</p>
                     </div>
                 </div>
 
@@ -58,7 +78,7 @@ export default function AboutTabs({ ToggleWhoWeAre, ToggleOurHeritage, ToggleOur
                             <p className='AboutTabs-TextBoxText'>Cum no legere legimus accumsan. Eam et natum detracto eligendi, an pri dolor everti regione, at diam posse sea. Id quo aperiam recusabo, ex unum homero salutatus has.</p>
                              
                         </div>
-                        <div className='AboutTabs-Image'></div>
+                        <div className='AboutTabs-Image AboutTabs-Image1'></div>
                     </div>
 
                     <div className={Card2Classes}>
@@ -71,7 +91,7 @@ export default function AboutTabs({ ToggleWhoWeAre, ToggleOurHeritage, ToggleOur
                             <p className='AboutTabs-TextBoxText'>Cum no legere legimus accumsan. Eam et natum detracto eligendi, an pri dolor everti regione, at diam posse sea. Id quo aperiam recusabo, ex unum homero salutatus has, mea eirmod oblique deseruisse in.</p>
                              
                         </div>
-                        <div className='AboutTabs-Image'></div>
+                        <div className='AboutTabs-Image AboutTabs-Image2'></div>
                     </div>
 
                     <div className={Card3Classes}>
@@ -108,7 +128,7 @@ export default function AboutTabs({ ToggleWhoWeAre, ToggleOurHeritage, ToggleOur
                             </ul>
                              
                         </div>
-                        <div className='AboutTabs-Image'></div>
+                        <div className='AboutTabs-Image AboutTabs-Image3'></div>
                     </div>
 
                     <div className={Card4Classes}>
@@ -121,7 +141,7 @@ export default function AboutTabs({ ToggleWhoWeAre, ToggleOurHeritage, ToggleOur
                             <p className='AboutTabs-TextBoxText'>Eam at eirmod epicurei constituam. Usu te possim graecis forensibus, his at utroque mentitum repudiare. Sumo errem veniam ne vix, sea eros expetenda accusamus at, eu vide everti neglegentur.</p>
                              
                         </div>
-                        <div className='AboutTabs-Image'></div>
+                        <div className='AboutTabs-Image AboutTabs-Image4'></div>
                     </div>
                     
                 </div>

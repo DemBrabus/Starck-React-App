@@ -1,0 +1,15 @@
+.SILQ {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.SILQ-Wrapper {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1000px){
+    .SILQ {
+        margin-top: 60px;
+    }
+}

@@ -1,5 +1,6 @@
 .AboutTabs {
     width: 100%;
+    margin-bottom: 60px;
 }
 
 .AboutTabs-Wrapper {
@@ -10,7 +11,7 @@
     font-size: 22px;
     color: #191919;
     font-weight: 600;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .AboutTabs-Tabs {
@@ -39,12 +40,9 @@
     font-weight: 600;
 }
 
-.AboutTabs-TabActive {
-    background-color: #c7c7c7;
-}
-
 .AboutTabs-TabTextActive {
-    color: #FFF;
+    color: #191919;
+    font-weight: 600;
 }
 
 
@@ -88,9 +86,21 @@
     .AboutTabs-Card1 {
         display: none;
     }
+        .AboutTabs-Image1 {
+            background: url('../../../Assets/Images/About/AboutImage1.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
     .AboutTabs-Card2 {
         display: none;
     }
+        .AboutTabs-Image2 {
+            background: url('../../../Assets/Images/About/AboutImage2.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
 
         .AboutTabs-HistoryList {
             list-style-type: initial;
@@ -106,9 +116,21 @@
     .AboutTabs-Card3 {
         display: none;
     }
+        .AboutTabs-Image3 {
+            background: url('../../../Assets/Images/About/AboutImage3.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
     .AboutTabs-Card4 {
         display: none;
     }
+        .AboutTabs-Image4 {
+            background: url('../../../Assets/Images/About/AboutImage4.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
 
         .AboutTabs-CardActive {
             display: flex;
@@ -159,6 +181,9 @@
     .AboutTabs-Card4 {
         display: flex;
     }
+    .AboutTabs-Title {
+    margin-left: 20px;
+}
 
 }
 
