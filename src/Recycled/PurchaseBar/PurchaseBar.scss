@@ -1,0 +1,104 @@
+.PurchaseBar {
+    width: 100%;
+}
+
+.PurchaseBar-Wrapper {
+    width: 100%;
+}
+
+.PurchaseBar-TopRow {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.PurchaseBar-BottomRow {
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PurchaseBar-Title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #585858;
+}
+
+.PurchaseBar-Button {
+    width: 125px;
+    height: 25px;
+    background-color: #585858;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PurchaseBar-ButtonText {
+    color: #FFF;
+}
+
+.PurchaseBar-Phone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PurchaseBar-PhoneIcon {
+    width: 20px;
+    height: 20px;
+    background-color: #585858;
+    margin-right: 15px;
+}
+
+.PurchaseBar-PhoneText {
+    color: #585858;
+}
+
+.PurchaseBar-Store {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PurchaseBar-StoreIcon {
+    width: 20px;
+    height: 20px;
+    background-color: #585858;
+
+    margin-right: 15px;
+}
+
+.PurchaseBar-StoreText {
+    color: #585858;
+}
+
+.PurchaseBar-Dealer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PurchaseBar-DealerIcon {
+    width: 20px;
+    height: 20px;
+    background-color: #585858;
+
+    margin-right: 15px;
+}
+
+.PurchaseBar-DealerText {
+    color: #585858;
+}
+
+
+@media screen and (max-width: 1000px){
+    .PurchaseBar-BottomRow {
+        width: 100%;
+        margin-left: 20px;
+    }
+}

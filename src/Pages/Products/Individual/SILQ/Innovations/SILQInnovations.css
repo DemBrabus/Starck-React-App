@@ -1,0 +1,66 @@
+.SILQInnovations {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.SILQInnovations-Wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.SILQInnovations-TextBox {
+  width: 35%;
+  padding: 20px;
+}
+
+.SILQInnovations-Category {
+  font-size: 24px;
+  font-weight: 600;
+  color: #191919;
+  margin-bottom: 10px;
+}
+
+.SILQInnovations-Title {
+  font-size: 14px;
+  font-weight: 800;
+  color: #585858;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.SILQInnovations-Text {
+  font-size: 14px;
+  color: #9a9a9a;
+  line-height: 20px;
+}
+
+.SILQInnovations-Image {
+  width: 65%;
+  height: 400px;
+  background: url("../../../../../Assets/Images/SILQ/SILQInnovations.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1000px) {
+  .SILQInnovations-Wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .SILQInnovations-Image {
+    width: 100%;
+    height: 50vw;
+  }
+  .SILQInnovations-TextBox {
+    width: 70%;
+  }
+}
+/*# sourceMappingURL=SILQInnovations.css.map */

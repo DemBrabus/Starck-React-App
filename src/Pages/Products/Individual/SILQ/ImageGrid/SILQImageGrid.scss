@@ -1,0 +1,65 @@
+.SILQImageGrid {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.SILQImageGrid-Wrapper {
+    width: 100%;
+}
+
+.SILQImageGrid-Row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.SILQImageGrid-Row1-Image {
+    width: 32%;
+    height: 400px;
+}
+
+.SILQImageGrid-Row2-Image {
+    width: 49%;
+    height: 400px;
+}
+
+.SILQImageGrid-Image1{
+    background: url('../../../../../Assets/Images/SILQ/SILQGrid1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.SILQImageGrid-Image2{
+    background: url('../../../../../Assets/Images/SILQ/SILQGrid2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.SILQImageGrid-Image3{
+    background: url('../../../../../Assets/Images/SILQ/SILQGrid3.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.SILQImageGrid-Image4{
+    background: url('../../../../../Assets/Images/SILQ/SILQGrid4.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.SILQImageGrid-Image5{
+    background: url('../../../../../Assets/Images/SILQ/SILQGrid5.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1000px){
+    .SILQImageGrid-Row1-Image {
+        height: 40vw;
+    }
+    .SILQImageGrid-Row2-Image {
+        height: 40vw;
+    }
+}

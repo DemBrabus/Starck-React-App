@@ -1,0 +1,66 @@
+.SILQPerformance {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.SILQPerformance-Wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.SILQPerformance-TextBox {
+  width: 35%;
+  padding: 20px;
+}
+
+.SILQPerformance-Category {
+  font-size: 24px;
+  font-weight: 600;
+  color: #191919;
+  margin-bottom: 10px;
+}
+
+.SILQPerformance-Title {
+  font-size: 14px;
+  font-weight: 800;
+  color: #585858;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.SILQPerformance-Text {
+  font-size: 14px;
+  color: #9a9a9a;
+  line-height: 20px;
+}
+
+.SILQPerformance-Image {
+  width: 65%;
+  height: 400px;
+  background: url("../../../../../Assets/Images/SILQ/SILQPerformance.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1000px) {
+  .SILQPerformance-Wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .SILQPerformance-Image {
+    width: 100%;
+    height: 50vw;
+  }
+  .SILQPerformance-TextBox {
+    width: 70%;
+  }
+}
+/*# sourceMappingURL=SILQPerformance.css.map */

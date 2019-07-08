@@ -1,6 +1,14 @@
 import React from 'react';
 import './SILQ.scss';
 import SILQHero from './Hero/SILQHero';
+import InfoBar from './InfoBar/InfoBar';
+import SILQHook from './Hook/SILQHook';
+import SILQImageGrid from './ImageGrid/SILQImageGrid';
+import SILQInnovations from './Innovations/SILQInnovations';
+import SILQArtistry from './Artistry/SILQArtistry';
+import SILQPerformance from './Performance/SILQPerformance';
+import PurchaseBar from '../../../../Recycled/PurchaseBar/PurchaseBar';
+import SILQClosing from './Closing/SILQClosing';
 
 export default function SILQ() {
     return (
@@ -17,6 +25,16 @@ export default function SILQ() {
 
 
                 <SILQHero />
+                <InfoBar />
+                <SILQHook />
+                <SILQImageGrid />
+                <SILQInnovations />
+                <SILQArtistry />
+                <SILQPerformance />
+                <SILQClosing />
+                <PurchaseBar />
+
+
                 
             </div>
         </div>
