@@ -1,12 +1,72 @@
 .Registration {
   width: 100%;
   margin-top: 100px;
+}
+
+.Registration-Wrapper {
+  width: 100%;
+}
+
+.Registration-TitleBlock {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #e3e3e3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+.Registration-Title {
+  font-size: 22px;
+  font-weight: 800;
+  color: #585858;
+}
+
+.Registration-Content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
+}
+
+.Registration-Text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #9a9a9a;
+  width: 50%;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1000px) {
   .Registration {
     margin-top: 60px;
+  }
+  .Registration-Title {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Registration-Text {
+    width: 80%;
   }
 }
 /*# sourceMappingURL=Registration.css.map */

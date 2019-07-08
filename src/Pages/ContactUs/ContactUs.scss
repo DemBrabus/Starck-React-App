@@ -76,7 +76,7 @@
     background-color: #FFF;
     border-radius: 5px;
     outline: none;
-    color: #9a9a9as;
+    color: #9a9a9a;
     font-weight: 600;
 }
 
@@ -112,17 +112,7 @@
     }
 
 
-    .ContactUs-SubmitModal{
-        position: absolute;
-        top: 20%;
-        left: 30%;
-        height: 300px;
-        width: 600px;
-        background-color: #FFF;
-        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.174);
-    }
-
-
+    
 
 
 
@@ -146,5 +136,38 @@
     }
     .ContactUs-Title {
         margin-left: 30px;
+    }
+    .ContactUs-Content {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .ContactUs-TextBox {
+        width: 60%;
+        text-align: center;
+    }
+    .ContactUs-Form {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .ContactUs-Form-Row {
+        flex-direction: column;
+    }
+    .ContactUs-InputWrap {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .ContactUs-Form-Row {
+        margin-bottom: 0;
+    }
+    .ContactUs-TextBox {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .ContactUs-Closing {
+        flex-direction: row;
+
     }
 }

@@ -128,4 +128,11 @@
 .PurchaseBar-DealerText {
   color: #585858;
 }
+
+@media screen and (max-width: 1000px) {
+  .PurchaseBar-BottomRow {
+    width: 100%;
+    margin-left: 20px;
+  }
+}
 /*# sourceMappingURL=PurchaseBar.css.map */

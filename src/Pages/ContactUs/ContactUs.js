@@ -89,12 +89,7 @@ export default function ContactUs() {
                     </form>
 
 
-                    <div className='ContactUs-SubmitModal'>
-                        <div className='ContactUs-SubmitModal-Wrapper'>
-                            <p className='ContactUs-SubmitModal-Title'>Form Submitted!</p>
-                            <p className='ContactUs-SubmitModal-Text'>Thank you for contacting us! The appropriate Starck representative will reach out to you through the email you provided within 48 hours. Have a great day!</p>
-                        </div>
-                    </div>
+                   
 
                 </div>
 

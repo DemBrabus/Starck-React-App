@@ -1,9 +1,109 @@
 .Dealer {
     width: 100%;
     margin-top: 100px;
-    text-align: center;
+}
+.Dealer-Wrapper {
+    width: 100%;
+}
+
+.Dealer-TitleBlock {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #e3e3e3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.Dealer-Title {
+    font-size: 22px;
+    font-weight: 800;
+    color: #585858;
     
 }
+
+.Dealer-Content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px dashed #9a9a9a;
+    padding-top: 10px;
+}
+
+.Dealer-CardWrap {
+    width: 40%;
+    padding: 10px 0;
+
+}
+
+.Dealer-Card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #9a9a9a;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.Dealer-CardLeft {
+    text-align: left;
+}
+
+.Dealer-CardRight {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.Dealer-Card-Title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #191919;
+    white-space: nowrap;
+}
+
+.Dealer-Card-Text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9a9a9a;
+    margin-bottom: 5px;
+}
+
+.Dealer-Card-Button {
+    width: 120px;
+    height: 30px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9a9a9a;
+    white-space: nowrap;
+    border: 1px solid #c7c7c7;
+    font-size: 12px;
+}
+
+.Dealer-Card-Button:hover {
+    background-color: #585858;
+    cursor: pointer;
+}
+
+.Dealer-Map {
+    width: 59%;
+    height: 550px;
+    background-color: #9a9a9a;
+}
+
+
+
+
+
+
+
+
+
 
 
 

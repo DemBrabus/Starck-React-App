@@ -1,4 +1,25 @@
 .SILQClosing {
   width: 100%;
+  margin-bottom: 60px;
+}
+
+.SILQClosing-Wrapper {
+  width: 50%;
+}
+
+.SILQClosing-Text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #9a9a9a;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .SILQClosing-Wrapper {
+    width: 98%;
+  }
+  .SILQClosing-Text {
+    font-size: 14px;
+  }
 }
 /*# sourceMappingURL=SILQClosing.css.map */
