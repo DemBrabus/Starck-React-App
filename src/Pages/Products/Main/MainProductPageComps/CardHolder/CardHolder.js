@@ -1,5 +1,6 @@
 import React from 'react';
 import './CardHolder.scss';
+import { Link } from 'react-router-dom';
 
 export default function CardHolder() {
     return (
@@ -8,23 +9,31 @@ export default function CardHolder() {
 
                 <div className='CardHolder-Row'>
                     <div className='Product-Card Product-Card1'>
-                    <div className='CardImage CardImage1'>
-
-                    </div>
+                    <Link to='/silq-product-page'>
+                        <div className='CardImage CardImage1'>
+                        </div>
+                    </Link>
+                        
                     <div className='Card-TextBox'>
                         <p className='Card-Logo'>Starck</p>
-                        <p className='Card-Title'>SILQ</p>
+                        <Link to='/silq-product-page'>
+                            <p className='Card-Title'>SILQ</p>
+                        </Link>
+                        
                         <p className='Card-Text'>The SILQ chair is a breakthrough in seating design. Its innovative nature is both mechanism and artistry. It delivers a personal experience that responds to the unique movements of your body.</p>
                     </div>
                 </div>
 
                 <div className='Product-Card Product-Card2'>
-                    <div className='CardImage CardImage2'>
-
-                    </div>
+                    <Link to='/series1-product-page'>
+                        <div className='CardImage CardImage2'>
+                        </div>
+                    </Link>
                     <div className='Card-TextBox'>
                         <p className='Card-Logo'>Starck</p>
-                        <p className='Card-Title'>SERIES 1</p>
+                        <Link to='/series1-product-page'>
+                            <p className='Card-Title'>Series 1</p>
+                        </Link>
                         <p className='Card-Text'>Starck Series 1 office chair delivers on what’s important - performance, style and choice. It retains everything that’s valued in a chair, while making it attainable for everyone.</p>
                     </div>
                 </div>
@@ -33,23 +42,29 @@ export default function CardHolder() {
 
                 <div className='CardHolder-Row'>
                     <div className='Product-Card Product-Card3'>
+                        <Link to='/gesture-product-page'>
                         <div className='CardImage CardImage3'>
-
                         </div>
+                    </Link>
                         <div className='Card-TextBox'>
                             <p className='Card-Logo'>Starck</p>
-                            <p className='Card-Title'>GESTURE</p>
+                            <Link to='/gesture-product-page'>
+                            <p className='Card-Title'>Gesture</p>
+                        </Link>
                             <p className='Card-Text'>Inspired by the movement of the human body, Gesture is the first office chair designed to support our interactions with today's technologies. Gesture is created for the way we work today.</p>
                         </div>
                     </div>
 
                     <div className='Product-Card Product-Card4'>
+                        <Link to='/leap-product-page'>
                         <div className='CardImage CardImage4'>
-
                         </div>
+                        </Link>
                         <div className='Card-TextBox'>
                             <p className='Card-Logo'>Starck</p>
-                            <p className='Card-Title'>LEAP</p>
+                            <Link to='/leap-product-page'>
+                            <p className='Card-Title'>Leap</p>
+                            </Link>
                             <p className='Card-Text'>Leap is a desk chair that provides a high performance, ergonomic solution for any office.</p>
                         </div>
                     </div>

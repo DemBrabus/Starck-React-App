@@ -20,7 +20,7 @@ export default function ProductPageMenu() {
 
                 <div className='ProductPageMenu-Category'>
                     <p className='ProductPageMenu-LinksTitle'>Class</p>
-                    <Link to='/'>
+                    <Link to='/series1-product-page'>
                         <p className='ProductPageMenu-Link'>Series 1</p>
                     </Link>
                     <Link to='/'>

@@ -1,0 +1,69 @@
+.Series1Range {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.Series1Range-Wrapper {
+    width: 100%;
+}
+
+.Series1Range-Title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #191919;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.Series1Range-ImagesWrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Series1Range-Image {
+    width: 49%;
+    height: 300px;
+    
+}
+
+    .Series1Range-Image1 {
+        background: url('../../../../../Assets/Images/Series1/Series1Range1.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+     .Series1Range-Image2 {
+         background: url('../../../../../Assets/Images/Series1/Series1Range2.png');
+         background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+.Series1Range-Text {
+    font-size: 14px;
+    color: #9a9a9a;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 40%;
+}
+
+
+
+@media screen and (max-width: 700px){
+    .Series1Range-ImagesWrap {
+        flex-direction: column;
+    }
+
+    .Series1Range-Image {
+        width: 100%;
+        height: 40vw;
+        margin-bottom: 20px;
+    }
+    .Series1Range-Text {
+        width: 80%;
+        margin-top: 0;
+    }
+}
