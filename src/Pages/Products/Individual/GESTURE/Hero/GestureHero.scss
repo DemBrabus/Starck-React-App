@@ -1,0 +1,110 @@
+.GestureHero {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.GestureHero-Wrapper {
+    width: 100%;
+
+}
+
+.GestureHero-Image {
+    width: 100%;
+    height: 550px;
+    background: url('../../../../../Assets/Images/Gesture/GestureHeroImage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.GestureHero-WhiteBox {
+    width: 330px;
+    height: 180px;
+    background-color: #FFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+    margin-left: 30px; 
+}
+
+.GestureHero-WhiteBox-Top {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #191919
+}
+
+.GestureHero-WhiteBox-Title {
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.GestureHero-WhiteBox-Text {
+    font-size: 14px;
+    color: #9a9a9a;
+    padding: 20px;
+    line-height: 20px;
+}
+
+.GestureHero-Button {
+    width: 90%;
+    height: 30px;
+    background-color: #585858;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.GestureHero-Mobile-TextBox {
+    width: 100%;
+    padding: 20px;
+    display: none;
+}
+
+.GestureHero-Mobile-Title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #191919;
+    margin-bottom: 10px;
+}
+
+.GestureHero-Mobile-Text {
+    font-size: 14px;
+    color: #9a9a9a;
+    width: 70%;
+    line-height: 20px;
+
+    margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .GestureHero-Image {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .GestureHero-Mobile-TextBox {
+        display: block;
+    }
+    .GestureHero-WhiteBox {
+        display: none;
+    }
+    .GestureHero-Image {
+        height: 40vw;
+    }
+    .GestureHero-Button {
+        margin: 0;
+    }
+}

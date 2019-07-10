@@ -124,16 +124,16 @@ export default class InfoBar extends Component {
                 <div className={ImagesCardClasses}>
                     <div className='InfoBar-ImagesCard-Wrapper'>
                         <div className='InfoBar-ImagesCard-Row'>
-                            <div className='InfoBar-ImagesCard-Image InfoBar-ImagesCard-Image1'></div>
-                            <div className='InfoBar-ImagesCard-Image InfoBar-ImagesCard-Image2'></div>
-                            <div className='InfoBar-ImagesCard-Image InfoBar-ImagesCard-Image3'></div>
-                            <div className='InfoBar-ImagesCard-Image InfoBar-ImagesCard-Image4'></div>
+                            <div className='InfoBar-ImagesCard-Image SILQInfoBar-ImagesCard-Image1'></div>
+                            <div className='InfoBar-ImagesCard-Image SILQInfoBar-ImagesCard-Image2'></div>
+                            <div className='InfoBar-ImagesCard-Image SILQInfoBar-ImagesCard-Image3'></div>
+                            <div className='InfoBar-ImagesCard-Image SILQInfoBar-ImagesCard-Image4'></div>
                         </div>
                         <div className='InfoBar-ImagesCard-Row'>
-                            <div className='InfoBar-ImagesCard-Image InfoBar-ImagesCard-Image5'></div>
-                            <div className='InfoBar-ImagesCard-Image InfoBar-ImagesCard-Image6'></div>
-                            <div className='InfoBar-ImagesCard-Image InfoBar-ImagesCard-Image7'></div>
-                            <div className='InfoBar-ImagesCard-Image InfoBar-ImagesCard-Image8'></div>
+                            <div className='InfoBar-ImagesCard-Image SILQInfoBar-ImagesCard-Image5'></div>
+                            <div className='InfoBar-ImagesCard-Image SILQInfoBar-ImagesCard-Image6'></div>
+                            <div className='InfoBar-ImagesCard-Image SILQInfoBar-ImagesCard-Image7'></div>
+                            <div className='InfoBar-ImagesCard-Image SILQInfoBar-ImagesCard-Image8'></div>
                         </div>
                     </div>
                 </div>
@@ -141,28 +141,28 @@ export default class InfoBar extends Component {
                 <div className={MaterialsCardClasses}>
                     <div className='InfoBar-MaterialsCard-Wrapper'>
                         <div className='InfoBar-MaterialsCard-Row'>
-                            <div className='InfoBar-MaterialsCard-Image InfoBar-MaterialsCard-Image1'>
+                            <div className='InfoBar-MaterialsCard-Image SILQInfoBar-MaterialsCard-Image1'>
                                 <div className='InfoBar-MaterialsCard-Image-TextBox'>
                                     <p className='InfoBar-MaterialsCard-Image-TextBox-Text'>
                                         5G51 Sable
                                     </p>
                                 </div>
                             </div>
-                            <div className='InfoBar-MaterialsCard-Image InfoBar-MaterialsCard-Image2'>
+                            <div className='InfoBar-MaterialsCard-Image SILQInfoBar-MaterialsCard-Image2'>
                                 <div className='InfoBar-MaterialsCard-Image-TextBox'>
                                     <p className='InfoBar-MaterialsCard-Image-TextBox-Text'>
                                         5G64 Alpine
                                     </p>
                                 </div>
                             </div>
-                            <div className='InfoBar-MaterialsCard-Image InfoBar-MaterialsCard-Image3'>
+                            <div className='InfoBar-MaterialsCard-Image SILQInfoBar-MaterialsCard-Image3'>
                                 <div className='InfoBar-MaterialsCard-Image-TextBox'>
                                     <p className='InfoBar-MaterialsCard-Image-TextBox-Text'>
                                         5G10 Grape
                                     </p>
                                 </div>
                             </div>
-                            <div className='InfoBar-MaterialsCard-Image InfoBar-MaterialsCard-Image4'>
+                            <div className='InfoBar-MaterialsCard-Image SILQInfoBar-MaterialsCard-Image4'>
                                 <div className='InfoBar-MaterialsCard-Image-TextBox'>
                                     <p className='InfoBar-MaterialsCard-Image-TextBox-Text'>
                                         5G05 Burgundy
@@ -171,28 +171,28 @@ export default class InfoBar extends Component {
                             </div>
                         </div>
                         <div className='InfoBar-MaterialsCard-Row'>
-                            <div className='InfoBar-MaterialsCard-Image InfoBar-MaterialsCard-Image5'>
+                            <div className='InfoBar-MaterialsCard-Image SILQInfoBar-MaterialsCard-Image5'>
                                 <div className='InfoBar-MaterialsCard-Image-TextBox'>
                                     <p className='InfoBar-MaterialsCard-Image-TextBox-Text'>
                                         5G08 Navy
                                     </p>
                                 </div>
                             </div>
-                            <div className='InfoBar-MaterialsCard-Image InfoBar-MaterialsCard-Image6'>
+                            <div className='InfoBar-MaterialsCard-Image SILQInfoBar-MaterialsCard-Image6'>
                                 <div className='InfoBar-MaterialsCard-Image-TextBox'>
                                     <p className='InfoBar-MaterialsCard-Image-TextBox-Text'>
                                         5G61 Cyan
                                     </p>
                                 </div>
                             </div>
-                            <div className='InfoBar-MaterialsCard-Image InfoBar-MaterialsCard-Image7'>
+                            <div className='InfoBar-MaterialsCard-Image SILQInfoBar-MaterialsCard-Image7'>
                                 <div className='InfoBar-MaterialsCard-Image-TextBox'>
                                     <p className='InfoBar-MaterialsCard-Image-TextBox-Text'>
                                         5G62 Atlantic
                                     </p>
                                 </div>
                             </div>
-                            <div className='InfoBar-MaterialsCard-Image InfoBar-MaterialsCard-Image8'>
+                            <div className='InfoBar-MaterialsCard-Image SILQInfoBar-MaterialsCard-Image8'>
                                 <div className='InfoBar-MaterialsCard-Image-TextBox'>
                                     <p className='InfoBar-MaterialsCard-Image-TextBox-Text'>
                                         5G08 New Black
@@ -206,7 +206,7 @@ export default class InfoBar extends Component {
                 <div className={DocumentsCardClasses}>
                     <div className='InfoBar-DocumentsCard-Wrapper'>
                         <div className='InfoBar-DocumentsCard-Row'>
-                            <div className='InfoBar-DocumentsCard-Image InfoBar-DocumentsCard-Image1'>
+                            <div className='InfoBar-DocumentsCard-Image SILQInfoBar-DocumentsCard-Image1'>
                                 <div className='InfoBar-MaterialsCard-Image-TextBox'>
                                     <p className='InfoBar-MaterialsCard-Image-TextBox-Text'>
                                         Download Chair Specs PDF

@@ -1,0 +1,119 @@
+.GesturePlanning {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.GesturePlanning-Wrapper {
+    width: 100%;
+}
+
+.GesturePlanning-Title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #191919;
+    margin-bottom: 10px;
+}
+
+.GesturePlanning-Button {
+    width: 220px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.GesturePlanning-ButtonText {
+    font-size: 14px;
+    font-weight: 600;
+    color: #191919;
+}
+
+.GesturePlanning-ButtonIcon {
+    width: 10px;
+    height: 10px;
+    background-color: #848484;
+    border-radius: 50%;
+}
+
+.GesturePlanning-CardWrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.GesturePlanning-Card {
+    width: 23.5%;
+    height: 250px;
+}
+
+.GesturePlanning-CardImage {
+    width: 100%;
+    height: 150px;
+}
+
+.GesturePlanning-CardImage1 {
+    background: url('../../../../../Assets/Images/Gesture/GesturePlanning1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.GesturePlanning-CardImage2 {
+    background: url('../../../../../Assets/Images/Gesture/GesturePlanning2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.GesturePlanning-CardImage3 {
+    background: url('../../../../../Assets/Images/Gesture/GesturePlanning3.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.GesturePlanning-CardImage4 {
+    background: url('../../../../../Assets/Images/Gesture/GesturePlanning4.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.GesturePlanning-CardTextBox {
+    width: 100%;
+    height: 100px;
+}
+
+.GesturePlanning-CardTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: #191919;
+    margin-bottom: 5px;
+}
+
+.GesturePlanning-CardText {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9a9a9a;
+}
+
+
+@media screen and (max-width: 1000px){
+    .GesturePlanning-CardWrap {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .GesturePlanning-Card {
+        width: 100%;
+    }
+    .GesturePlanning-CardTitle {
+        margin-left: 20px;
+    }
+
+    .GesturePlanning-CardText {
+        margin-left: 20px;
+    }
+}

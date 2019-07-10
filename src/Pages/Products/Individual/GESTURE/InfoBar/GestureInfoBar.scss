@@ -1,0 +1,287 @@
+.InfoBar {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.InfoBar-Menu {
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
+    height: 60px;
+}
+
+.InfoBar-Wrapper {
+    width: 600px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.InfoBar-Item {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.InfoBar-Icon {
+    width: 25px;
+    height: 25px;
+    background-color: #c7c7c7;
+    margin-right: 15px;
+}
+
+.InfoBar-Text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #9a9a9a;
+    margin-right: 15px;
+}
+
+    .InfoBar-Text:hover {
+        color: #5b5b5b;
+    }
+
+.InfoBar-Arrow {
+    width: 10px;
+    height: 8px;
+    background-color: #c7c7c7;
+}
+
+/* InfoBar-ImagesCard */
+
+.InfoBar-ImagesCard {
+    width: 100%;
+    display: none;
+}
+
+.InfoBar-ImagesCard-Wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.InfoBar-ImagesCard-Row {
+    width: 98%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.InfoBar-ImagesCard-Image {
+    width: 24.5%;
+    min-width: 100px;
+    height: 300px;
+    margin: 5px 0;
+    background-color: #8bbcc0;
+}
+
+    .GestureInfoBar-ImagesCard-Image1 {
+        background: url('../../../../../Assets/Images/Gesture/GestureImage1.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .GestureInfoBar-ImagesCard-Image2 {
+        background: url('../../../../../Assets/Images/Gesture/GestureImage2.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .GestureInfoBar-ImagesCard-Image3 {
+        background: url('../../../../../Assets/Images/Gesture/GestureImage3.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .GestureInfoBar-ImagesCard-Image4 {
+        background: url('../../../../../Assets/Images/Gesture/GestureImage4.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .GestureInfoBar-ImagesCard-Image5 {
+        background: url('../../../../../Assets/Images/Gesture/GestureImage5.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .GestureInfoBar-ImagesCard-Image6 {
+        background: url('../../../../../Assets/Images/Gesture/GestureImage6.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .GestureInfoBar-ImagesCard-Image7 {
+        background: url('../../../../../Assets/Images/Gesture/GestureImage7.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .GestureInfoBar-ImagesCard-Image8 {
+        background: url('../../../../../Assets/Images/Gesture/GestureImage8.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+/* InfoBar-MaterialsCard */
+
+.InfoBar-MaterialsCard {
+    width: 100%;
+    display: none;
+}
+
+.InfoBar-MaterialsCard-Wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.InfoBar-MaterialsCard-Row {
+    width: 98%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.InfoBar-MaterialsCard-Image {
+    width: 24.5%;
+    min-width: 100px;
+    height: 300px;
+    margin: 5px 0;
+    position: relative;
+}
+
+.InfoBar-MaterialsCard-Image-TextBox {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #585858;
+}
+
+.InfoBar-MaterialsCard-Image-TextBox-Text {
+    color: #FFF;
+    font-weight: 600;
+}
+
+    .GestureInfoBar-MaterialsCard-Image1 {
+        background: url('../../../../../Assets/Images/SILQ/SILQFabric1.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .GestureInfoBar-MaterialsCard-Image2 {
+        background: url('../../../../../Assets/Images/SILQ/SILQFabric2.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .GestureInfoBar-MaterialsCard-Image3 {
+        background: url('../../../../../Assets/Images/SILQ/SILQFabric3.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .GestureInfoBar-MaterialsCard-Image4 {
+        background: url('../../../../../Assets/Images/SILQ/SILQFabric4.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .GestureInfoBar-MaterialsCard-Image5 {
+        background: url('../../../../../Assets/Images/SILQ/SILQFabric5.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .GestureInfoBar-MaterialsCard-Image6 {
+        background: url('../../../../../Assets/Images/SILQ/SILQFabric6.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .GestureInfoBar-MaterialsCard-Image7 {
+        background: url('../../../../../Assets/Images/SILQ/SILQFabric7.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .GestureInfoBar-MaterialsCard-Image8 {
+        background: url('../../../../../Assets/Images/SILQ/SILQFabric8.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+/* InfoBar-DocumentsCard */
+
+.InfoBar-DocumentsCard {
+    width: 100%;
+    display: none;
+}
+
+.InfoBar-DocumentsCard-Wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.InfoBar-DocumentsCard-Row {
+    width: 98%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.InfoBar-DocumentsCard-Image {
+   width: 24.5%;
+    min-width: 100px;
+    height: 300px;
+    margin: 5px 0;
+    position: relative;
+}
+
+    .GestureInfoBar-DocumentsCard-Image1 {
+        background: url('../../../../../Assets/Images/Gesture/GestureDocuments1.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+
+.ActiveCard {
+    display: block;
+}
+
+.ActiveTab {
+    color: #191919;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .InfoBar {
+        display: none;
+    }
+}

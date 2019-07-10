@@ -1,0 +1,94 @@
+.GestureProducts {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.GestureProducts-Wrapper {
+  width: 100%;
+}
+
+.GestureProducts-Title {
+  font-size: 24px;
+  margin-left: 20px;
+  color: #191919;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.GestureProducts-ImageWrap {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.GestureProducts-Image {
+  width: 24.5%;
+  height: 250px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.GestureProducts-ImageText {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: -20px;
+}
+
+.GestureProducts-Image1 {
+  background: url("../../../../../Assets/Images/Gesture/GestureProduct1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.GestureProducts-Image2 {
+  background: url("../../../../../Assets/Images/Gesture/GestureProduct2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.GestureProducts-Image3 {
+  background: url("../../../../../Assets/Images/Gesture/GestureProduct3.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.GestureProducts-Image4 {
+  background: url("../../../../../Assets/Images/Gesture/GestureProduct4.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1000px) {
+  .GestureProducts-ImageWrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .GestureProducts-Image {
+    width: 100%;
+    height: 80vw;
+  }
+  .GestureProducts-ImageText {
+    margin-left: 20px;
+  }
+}
+/*# sourceMappingURL=GestureProducts.css.map */

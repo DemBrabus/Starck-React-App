@@ -1,4 +1,80 @@
 .Series1Seating {
   width: 100%;
+  margin-bottom: 60px;
+}
+
+.Series1Seating-Wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Series1Seating-Image {
+  width: 65%;
+  height: 350px;
+  background: url("../../../../../Assets/Images/Series1/Series1Seating.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Series1Seating-TextBox {
+  width: 35%;
+  padding-left: 20px;
+}
+
+.Series1Seating-Title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #191919;
+  margin-bottom: 20px;
+}
+
+.Series1Seating-Text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9a9a9a;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.Series1Seating-Button {
+  width: 150px;
+  height: 25px;
+  background-color: #848484;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .Series1Seating-Wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Series1Seating-Image {
+    width: 100%;
+    height: 50vw;
+    margin-bottom: 20px;
+  }
+  .Series1Seating-TextBox {
+    width: 90%;
+  }
 }
 /*# sourceMappingURL=Series1Seating.css.map */

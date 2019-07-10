@@ -96,56 +96,56 @@
   background-color: #8bbcc0;
 }
 
-.InfoBar-ImagesCard-Image1 {
+.SILQInfoBar-ImagesCard-Image1 {
   background: url("../../../../../Assets/Images/SILQ/SILQImages1.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.InfoBar-ImagesCard-Image2 {
+.SILQInfoBar-ImagesCard-Image2 {
   background: url("../../../../../Assets/Images/SILQ/SILQImages2.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.InfoBar-ImagesCard-Image3 {
+.SILQInfoBar-ImagesCard-Image3 {
   background: url("../../../../../Assets/Images/SILQ/SILQImages3.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.InfoBar-ImagesCard-Image4 {
+.SILQInfoBar-ImagesCard-Image4 {
   background: url("../../../../../Assets/Images/SILQ/SILQImages4.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.InfoBar-ImagesCard-Image5 {
+.SILQInfoBar-ImagesCard-Image5 {
   background: url("../../../../../Assets/Images/SILQ/SILQImages6.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.InfoBar-ImagesCard-Image6 {
+.SILQInfoBar-ImagesCard-Image6 {
   background: url("../../../../../Assets/Images/SILQ/SILQImages8.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.InfoBar-ImagesCard-Image7 {
+.SILQInfoBar-ImagesCard-Image7 {
   background: url("../../../../../Assets/Images/SILQ/SILQImages5.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.InfoBar-ImagesCard-Image8 {
+.SILQInfoBar-ImagesCard-Image8 {
   background: url("../../../../../Assets/Images/SILQ/SILQImages7.png");
   background-position: center;
   background-size: cover;
@@ -207,56 +207,56 @@
   font-weight: 600;
 }
 
-.InfoBar-MaterialsCard-Image1 {
+.SILQInfoBar-MaterialsCard-Image1 {
   background: url("../../../../../Assets/Images/SILQ/SILQFabric1.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.InfoBar-MaterialsCard-Image2 {
+.SILQInfoBar-MaterialsCard-Image2 {
   background: url("../../../../../Assets/Images/SILQ/SILQFabric2.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.InfoBar-MaterialsCard-Image3 {
+.SILQInfoBar-MaterialsCard-Image3 {
   background: url("../../../../../Assets/Images/SILQ/SILQFabric3.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.InfoBar-MaterialsCard-Image4 {
+.SILQInfoBar-MaterialsCard-Image4 {
   background: url("../../../../../Assets/Images/SILQ/SILQFabric4.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.InfoBar-MaterialsCard-Image5 {
+.SILQInfoBar-MaterialsCard-Image5 {
   background: url("../../../../../Assets/Images/SILQ/SILQFabric5.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.InfoBar-MaterialsCard-Image6 {
+.SILQInfoBar-MaterialsCard-Image6 {
   background: url("../../../../../Assets/Images/SILQ/SILQFabric6.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.InfoBar-MaterialsCard-Image7 {
+.SILQInfoBar-MaterialsCard-Image7 {
   background: url("../../../../../Assets/Images/SILQ/SILQFabric7.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.InfoBar-MaterialsCard-Image8 {
+.SILQInfoBar-MaterialsCard-Image8 {
   background: url("../../../../../Assets/Images/SILQ/SILQFabric8.png");
   background-position: center;
   background-size: contain;
@@ -296,7 +296,7 @@
   position: relative;
 }
 
-.InfoBar-DocumentsCard-Image1 {
+.SILQInfoBar-DocumentsCard-Image1 {
   background: url("../../../../../Assets/Images/SILQ/SILQDocuments.png");
   background-position: center;
   background-size: contain;
