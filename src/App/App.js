@@ -28,6 +28,7 @@ import Registration from '../Pages/Registration/Registration';
 import SILQ from '../Pages/Products/Individual/SILQ/SILQ';
 import Series1 from '../Pages/Products/Individual/SERIES1/Series1';
 import Gesture from '../Pages/Products/Individual/GESTURE/Gesture';
+import Leap from '../Pages/Products/Individual/LEAP/Leap';
 
 
 
@@ -155,7 +156,7 @@ export default class App extends Component {
                   exact 
                   component={Landing} />
               <Route 
-                  path='/main-product-page' 
+                  path='/product-page' 
                   component={ProductPage} />
               <Route 
                   path='/research' 
@@ -179,17 +180,17 @@ export default class App extends Component {
                   path='/registration' 
                   component={Registration} />
               <Route
-                  path='/silq-product-page'
+                  path='/product/silq'
                   component={SILQ} />
               <Route
-                  path='/series1-product-page'
+                  path='/product/series1'
                   component={Series1}/>
               <Route
-                  path='/gesture-product-page'
+                  path='/product/gesture'
                   component={Gesture} />
               <Route
-                  path='/silq-product-page'
-                  component={SILQ} />
+                  path='/product/leap'
+                  component={Leap} />
               <Route
                   path='/silq-product-page'
                   component={SILQ} />

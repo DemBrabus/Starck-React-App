@@ -9,14 +9,14 @@ export default function CardHolder() {
 
                 <div className='CardHolder-Row'>
                     <div className='Product-Card Product-Card1'>
-                    <Link to='/silq-product-page'>
+                    <Link to='/product/silq'>
                         <div className='CardImage CardImage1'>
                         </div>
                     </Link>
                         
                     <div className='Card-TextBox'>
                         <p className='Card-Logo'>Starck</p>
-                        <Link to='/silq-product-page'>
+                        <Link to='/product/silq'>
                             <p className='Card-Title'>SILQ</p>
                         </Link>
                         
@@ -25,13 +25,13 @@ export default function CardHolder() {
                 </div>
 
                 <div className='Product-Card Product-Card2'>
-                    <Link to='/series1-product-page'>
+                    <Link to='/product/series1'>
                         <div className='CardImage CardImage2'>
                         </div>
                     </Link>
                     <div className='Card-TextBox'>
                         <p className='Card-Logo'>Starck</p>
-                        <Link to='/series1-product-page'>
+                        <Link to='/product/series1'>
                             <p className='Card-Title'>Series 1</p>
                         </Link>
                         <p className='Card-Text'>Starck Series 1 office chair delivers on what’s important - performance, style and choice. It retains everything that’s valued in a chair, while making it attainable for everyone.</p>
@@ -42,27 +42,27 @@ export default function CardHolder() {
 
                 <div className='CardHolder-Row'>
                     <div className='Product-Card Product-Card3'>
-                        <Link to='/gesture-product-page'>
+                        <Link to='/product/gesture'>
                         <div className='CardImage CardImage3'>
                         </div>
-                    </Link>
+                        </Link>
                         <div className='Card-TextBox'>
                             <p className='Card-Logo'>Starck</p>
-                            <Link to='/gesture-product-page'>
+                            <Link to='/product/gesture'>
                             <p className='Card-Title'>Gesture</p>
-                        </Link>
+                            </Link>
                             <p className='Card-Text'>Inspired by the movement of the human body, Gesture is the first office chair designed to support our interactions with today's technologies. Gesture is created for the way we work today.</p>
                         </div>
                     </div>
 
                     <div className='Product-Card Product-Card4'>
-                        <Link to='/leap-product-page'>
+                        <Link to='/product/leap'>
                         <div className='CardImage CardImage4'>
                         </div>
                         </Link>
                         <div className='Card-TextBox'>
                             <p className='Card-Logo'>Starck</p>
-                            <Link to='/leap-product-page'>
+                            <Link to='/product/leap'>
                             <p className='Card-Title'>Leap</p>
                             </Link>
                             <p className='Card-Text'>Leap is a desk chair that provides a high performance, ergonomic solution for any office.</p>

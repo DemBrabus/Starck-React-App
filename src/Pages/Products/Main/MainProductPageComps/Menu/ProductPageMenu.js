@@ -11,7 +11,7 @@ export default function ProductPageMenu() {
             <div className='ProductPageMenu-Links'>
                 <div className='ProductPageMenu-Category'>
                     <p className='ProductPageMenu-LinksTitle'>Premium</p>
-                    <Link to='/silq-product-page'>
+                    <Link to='/product/silq'>
                         <p className='ProductPageMenu-Link'>SILQ</p>
                     </Link>
                 </div>
@@ -20,13 +20,13 @@ export default function ProductPageMenu() {
 
                 <div className='ProductPageMenu-Category'>
                     <p className='ProductPageMenu-LinksTitle'>Class</p>
-                    <Link to='/series1-product-page'>
+                    <Link to='/product/series1'>
                         <p className='ProductPageMenu-Link'>Series 1</p>
                     </Link>
-                    <Link to='/'>
+                    <Link to='/product/gesture'>
                         <p className='ProductPageMenu-Link'>Gesture</p>
                     </Link>
-                    <Link to='/'>
+                    <Link to='/product/leap'>
                         <p className='ProductPageMenu-Link'>Leap</p>
                     </Link>
                 </div>
@@ -35,10 +35,10 @@ export default function ProductPageMenu() {
 
                 <div className='ProductPageMenu-Category'>
                     <p className='ProductPageMenu-LinksTitle'>Utility</p>    
-                    <Link to='/'>
+                    <Link to='/product-page'>
                         <p className='ProductPageMenu-Link'>Amia</p>
                     </Link>
-                    <Link to='/'>
+                    <Link to='/product-page'>
                         <p className='ProductPageMenu-Link'>Cobi</p>
                     </Link>
                 </div>

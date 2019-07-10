@@ -24,7 +24,7 @@ export default function FullNav() {
                 </div>
                 <div className='FullNav-BottomRow'>
                     <div className='FullNav-Links-Wrapper'>
-                        <Link to='/main-product-page'>
+                        <Link to='/product-page'>
                             <p className='FullNav-Link'>Products</p>
                         </Link>
                         <Link to='/research'>

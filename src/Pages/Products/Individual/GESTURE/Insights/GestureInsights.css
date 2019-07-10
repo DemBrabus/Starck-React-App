@@ -98,7 +98,7 @@
   display: none;
 }
 
-.AboutTabs-Image1 {
+.GestureTabs-Image1 {
   background: url("../../../../../Assets/Images/Gesture/Gesture-Postures.png");
   background-size: cover;
   background-position: center;
@@ -109,7 +109,7 @@
   display: none;
 }
 
-.AboutTabs-Image2 {
+.GestureTabs-Image2 {
   background: url("../../../../../Assets/Images/Gesture/GestureInsights2.png");
   background-size: cover;
   background-position: center;
@@ -131,7 +131,7 @@
   display: none;
 }
 
-.AboutTabs-Image3 {
+.GestureTabs-Image3 {
   background: url("../../../../../Assets/Images/Gesture/GestureInsights4.png");
   background-size: cover;
   background-position: center;
@@ -142,7 +142,7 @@
   display: none;
 }
 
-.AboutTabs-Image4 {
+.GestureTabs-Image4 {
   background: url("../../../../../Assets/Images/Gesture/GestureInsights3.png");
   background-size: cover;
   background-position: center;
@@ -211,6 +211,12 @@
   }
   .AboutTabs-Title {
     margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .GestureTabs-Image1 {
+    background-size: contain;
   }
 }
 

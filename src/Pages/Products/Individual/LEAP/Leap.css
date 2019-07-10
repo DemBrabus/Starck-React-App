@@ -1,0 +1,65 @@
+.Leap {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.Leap-Wrapper {
+  width: 100%;
+}
+
+.Leap-TitleBlock {
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #e3e3e3;
+  margin-bottom: 40px;
+}
+
+.Leap-Title {
+  font-size: 22px;
+  font-weight: 800;
+  color: #585858;
+}
+
+.BuyButton {
+  width: 100px;
+  height: 30px;
+  background-color: #3d9bce;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.BuyButtonText {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1000px) {
+  .Leap {
+    margin-top: 60px;
+  }
+  .Leap-TitleBlock {
+    padding-left: 20px;
+  }
+  .BuyButton {
+    margin-right: 30px;
+  }
+}
+/*# sourceMappingURL=Leap.css.map */

@@ -48,6 +48,12 @@
           cursor: pointer;
         }
       }
+
+      .FullNav-RegistrationLink:hover {
+          color: #191919;
+      }
+
+        
       
       .FullNav-ContactBtn {
           width: 100px;
@@ -63,6 +69,10 @@
               font-size: 14px;
               font-weight: 500;
           }
+      }
+
+      .FullNav-ContactBtn:hover {
+          background-color: rgb(47, 126, 169)
       }
   }
 }
@@ -86,6 +96,10 @@
           font-weight: 600;
           cursor: pointer;
       }
+      .FullNav-Link:hover {
+            color: #585858;
+        }
+        
   }
 
   .FullNav-Dealer-Wrapper {
@@ -102,13 +116,23 @@
           margin-right: 10px;
       }
 
+    
+
       .FullNav-Dealer-Text {
           color: rgb(61, 155, 206);
           font-size: 14px;
           font-weight: 600;
       }
+
+      .FullNav-Dealer-Text:hover {
+          color: rgb(47, 126, 169)
+      }
   }
 }
+
+        .FullNav-Link:hover {
+            color: #585858;
+        }
 
 
 

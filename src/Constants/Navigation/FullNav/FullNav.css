@@ -64,6 +64,10 @@ a {
   cursor: pointer;
 }
 
+.FullNav-TopRow .FullNav-UserLinks-Wrapper .FullNav-RegistrationLink:hover {
+  color: #191919;
+}
+
 .FullNav-TopRow .FullNav-UserLinks-Wrapper .FullNav-ContactBtn {
   width: 100px;
   height: 30px;
@@ -84,6 +88,10 @@ a {
   color: #FFF;
   font-size: 14px;
   font-weight: 500;
+}
+
+.FullNav-TopRow .FullNav-UserLinks-Wrapper .FullNav-ContactBtn:hover {
+  background-color: #2f7ea9;
 }
 
 .FullNav-BottomRow {
@@ -120,6 +128,10 @@ a {
   cursor: pointer;
 }
 
+.FullNav-BottomRow .FullNav-Links-Wrapper .FullNav-Link:hover {
+  color: #585858;
+}
+
 .FullNav-BottomRow .FullNav-Dealer-Wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -145,6 +157,14 @@ a {
   color: #3d9bce;
   font-size: 14px;
   font-weight: 600;
+}
+
+.FullNav-BottomRow .FullNav-Dealer-Wrapper .FullNav-Dealer-Text:hover {
+  color: #2f7ea9;
+}
+
+.FullNav-Link:hover {
+  color: #585858;
 }
 
 @media screen and (max-width: 1200px) {

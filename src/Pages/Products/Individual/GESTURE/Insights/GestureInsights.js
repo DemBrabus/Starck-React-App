@@ -103,7 +103,7 @@ export default class GestureInsights extends Component {
                             
                              
                         </div>
-                        <div className='AboutTabs-Image AboutTabs-Image1'></div>
+                        <div className='AboutTabs-Image GestureTabs-Image1'></div>
                     </div>
 
                     <div className={Card2Classes}>
@@ -114,7 +114,7 @@ export default class GestureInsights extends Component {
                             <p className='AboutTabs-TextBoxText'>How might we design an office chair as advanced as today’s technology? A chair that augments our technology?</p>
                              
                         </div>
-                        <div className='AboutTabs-Image AboutTabs-Image2'></div>
+                        <div className='AboutTabs-Image GestureTabs-Image2'></div>
                     </div>
 
                     <div className={Card3Classes}>
@@ -126,7 +126,7 @@ export default class GestureInsights extends Component {
                             
                              
                         </div>
-                        <div className='AboutTabs-Image AboutTabs-Image3'></div>
+                        <div className='AboutTabs-Image GestureTabs-Image3'></div>
                     </div>
 
                     <div className={Card4Classes}>
@@ -137,7 +137,7 @@ export default class GestureInsights extends Component {
                             <p className='AboutTabs-TextBoxText'>How might we solve for multiple users sitting in multiple spaces throughout a day?</p>
                              
                         </div>
-                        <div className='AboutTabs-Image AboutTabs-Image4'></div>
+                        <div className='AboutTabs-Image GestureTabs-Image4'></div>
                     </div>
                     
                 </div>
