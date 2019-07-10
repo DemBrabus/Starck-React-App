@@ -8,44 +8,44 @@ export default function InspirationGrid() {
 
                 <div className='InspirationGrid-Row InspirationGrid-Row1'>
                     <div className='InspirationGrid-Row1-Column1'>
-                        <div className='InspirationGrid-Row1-Column1-Top'></div>
-                        <div className='InspirationGrid-Row1-Column1-Bottom'></div>
+                        <div className='InspirationGrid-Row1-Column1-Top InspirationGridImage'></div>
+                        <div className='InspirationGrid-Row1-Column1-Bottom InspirationGridImage'></div>
                     </div>
-                    <div className='InspirationGrid-Row1-Column2'></div>
+                    <div className='InspirationGrid-Row1-Column2 InspirationGridImage'></div>
                 </div>
 
 
 
                 <div className='InspirationGrid-Row InspirationGrid-Row2'>
 
-                    <div className='InspirationGrid-Row2-Column1'></div>
-                    <div className='InspirationGrid-Row2-Column2'></div>
-                    <div className='InspirationGrid-Row2-Column3'></div>
+                    <div className='InspirationGrid-Row2-Column1 InspirationGridImage'></div>
+                    <div className='InspirationGrid-Row2-Column2 InspirationGridImage'></div>
+                    <div className='InspirationGrid-Row2-Column3 InspirationGridImage'></div>
 
                 </div>
 
 
                 <div className='InspirationGrid-Row InspirationGrid-Row3'>
 
-                    <div className='InspirationGrid-Row3-Column1'></div>
-                    <div className='InspirationGrid-Row3-Column2'></div>
+                    <div className='InspirationGrid-Row3-Column1 InspirationGridImage'></div>
+                    <div className='InspirationGrid-Row3-Column2 InspirationGridImage'></div>
 
                 </div>
 
 
                 <div className='InspirationGrid-Row InspirationGrid-Row4'>
 
-                    <div className='InspirationGrid-Row4-Column1'></div>
-                    <div className='InspirationGrid-Row4-Column2'></div>
+                    <div className='InspirationGrid-Row4-Column1 InspirationGridImage'></div>
+                    <div className='InspirationGrid-Row4-Column2 InspirationGridImage'></div>
 
                 </div>
 
 
                 <div className='InspirationGrid-Row InspirationGrid-Row5'>
 
-                    <div className='InspirationGrid-Row5-Column1'></div>
-                    <div className='InspirationGrid-Row5-Column2'></div>
-                    <div className='InspirationGrid-Row5-Column3'></div>
+                    <div className='InspirationGrid-Row5-Column1 InspirationGridImage'></div>
+                    <div className='InspirationGrid-Row5-Column2 InspirationGridImage'></div>
+                    <div className='InspirationGrid-Row5-Column3 InspirationGridImage'></div>
 
 
                 </div>

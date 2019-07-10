@@ -56,8 +56,8 @@
         
       
       .FullNav-ContactBtn {
-          width: 100px;
-          height: 30px;
+          width: 90px;
+          height: 25px;
           background-color: rgb(61, 155, 206);
           display: flex;
           justify-content: center;
@@ -66,7 +66,7 @@
 
           .FullNav-ContactBtn-Text {
               color: #FFF;
-              font-size: 14px;
+              font-size: 12px;
               font-weight: 500;
           }
       }
@@ -103,6 +103,7 @@
   }
 
   .FullNav-Dealer-Wrapper {
+      width: 120px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -111,9 +112,10 @@
       .FullNav-Dealer-Icon {
           width: 15px;
           height: 22px;
-          background-color: rgb(61, 155, 206);
-          border-radius: 4px 4px 10px 10px;
-          margin-right: 10px;
+          background: url('../../../Assets/Icons/LocationIconBlue.svg');
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
       }
 
     

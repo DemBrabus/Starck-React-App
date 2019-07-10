@@ -61,6 +61,10 @@
   cursor: pointer;
 }
 
+.InspirationHero-WhiteBox-Button:hover {
+  background-color: #717171;
+}
+
 .InspirationHero-WhiteBox-ButtonText {
   font-size: 12px;
   font-weight: 600;
@@ -69,10 +73,27 @@
 }
 
 .InspirationHero-WhiteBox-ButtonIcon {
-  width: 5px;
-  height: 12px;
-  background-color: #FFF;
+  width: 11px;
+  height: 11px;
   margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.InspirationHero-WhiteBox-ButtonIcon-Image {
+  width: 100%;
+  height: 100%;
+  background: url("../../../Assets/Icons/WhiteArrow.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .InspirationHero-MobileContent {
@@ -121,10 +142,27 @@
 }
 
 .InspirationHero-Mobile-ButtonIcon {
-  width: 5px;
-  height: 12px;
-  background-color: #FFF;
+  width: 10px;
+  height: 10px;
   margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.InspirationHero-Mobile-ButtonIcon-Image {
+  width: 100%;
+  height: 100%;
+  background: url("../../../Assets/Icons/WhiteArrow.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 1000px) {

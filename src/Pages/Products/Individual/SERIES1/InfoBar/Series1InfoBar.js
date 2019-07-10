@@ -102,19 +102,19 @@ export default class Series1InfoBar extends Component {
                 <div className='InfoBar-Menu'>
                     <div className='InfoBar-Wrapper'>
                         <div className='InfoBar-Item' onClick={ImagesTabClick}>
-                            <div className='InfoBar-Icon'></div>
+                            <div className='InfoBar-Icon InfoBar-Icon1'></div>
                             <p className={ImagesTab}>Images</p>
                             <div className='InfoBar-Arrow'></div>
                         </div>
 
                         <div className='InfoBar-Item' onClick={MaterialsTabClick}>
-                            <div className='InfoBar-Icon'></div>
+                            <div className='InfoBar-Icon InfoBar-Icon2'></div>
                             <p className={MaterialsTab}>Materials</p>
                             <div className='InfoBar-Arrow'></div>
                         </div>
 
                         <div className='InfoBar-Item' onClick={DocumentsTabClick}>
-                            <div className='InfoBar-Icon'></div>
+                            <div className='InfoBar-Icon InfoBar-Icon3'></div>
                             <p className={DocumentsTab}>Documents</p>
                             <div className='InfoBar-Arrow'></div>
                         </div>

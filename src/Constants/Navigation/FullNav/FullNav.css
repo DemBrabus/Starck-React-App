@@ -69,8 +69,8 @@ a {
 }
 
 .FullNav-TopRow .FullNav-UserLinks-Wrapper .FullNav-ContactBtn {
-  width: 100px;
-  height: 30px;
+  width: 90px;
+  height: 25px;
   background-color: #3d9bce;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -86,7 +86,7 @@ a {
 
 .FullNav-TopRow .FullNav-UserLinks-Wrapper .FullNav-ContactBtn .FullNav-ContactBtn-Text {
   color: #FFF;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
 }
 
@@ -133,6 +133,7 @@ a {
 }
 
 .FullNav-BottomRow .FullNav-Dealer-Wrapper {
+  width: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -148,9 +149,10 @@ a {
 .FullNav-BottomRow .FullNav-Dealer-Wrapper .FullNav-Dealer-Icon {
   width: 15px;
   height: 22px;
-  background-color: #3d9bce;
-  border-radius: 4px 4px 10px 10px;
-  margin-right: 10px;
+  background: url("../../../Assets/Icons/LocationIconBlue.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .FullNav-BottomRow .FullNav-Dealer-Wrapper .FullNav-Dealer-Text {

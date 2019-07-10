@@ -33,6 +33,10 @@
   font-weight: 600;
 }
 
+.ProductPageMenu-Link:hover {
+  color: #717171;
+}
+
 .ProductPageMenu-Hook {
   font-size: 14px;
   color: #9a9a9a;

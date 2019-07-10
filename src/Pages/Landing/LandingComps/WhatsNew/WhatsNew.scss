@@ -35,6 +35,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        cursor: pointer;
 
         .WhatsNew-ButtonText {
             color: #191919;
@@ -43,10 +44,18 @@
         }
 
         .WhatsNew-ButtonIcon {
-            width: 5px;
-            height: 8px;
-            background-color: #191919;
+            width: 12px;
+            height: 12px;
             margin-right: 10px;
+
+            .WhatsNew-ButtonIcon-Image {
+                width: 100%;
+                height: 100%;
+                background: url('../../../../Assets/Icons/BlackArrow.svg');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
         }
     }
 }

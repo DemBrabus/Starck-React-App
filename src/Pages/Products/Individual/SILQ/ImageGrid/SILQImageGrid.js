@@ -8,14 +8,14 @@ export default function SILQImageGrid() {
 
 
                 <div className='SILQImageGrid-Row'>
-                    <div className='SILQImageGrid-Row1-Image SILQImageGrid-Image1'></div>
-                    <div className='SILQImageGrid-Row1-Image SILQImageGrid-Image2'></div>
-                    <div className='SILQImageGrid-Row1-Image SILQImageGrid-Image3'></div>
+                    <div className='SILQImageGrid-Row1-Image SILQImageGrid-Image1 SILQGridImage'></div>
+                    <div className='SILQImageGrid-Row1-Image SILQImageGrid-Image2 SILQGridImage'></div>
+                    <div className='SILQImageGrid-Row1-Image SILQImageGrid-Image3 SILQGridImage'></div>
                 </div>
 
                 <div className='SILQImageGrid-Row'>
-                    <div className='SILQImageGrid-Row2-Image SILQImageGrid-Image4'></div>
-                    <div className='SILQImageGrid-Row2-Image SILQImageGrid-Image5'></div>
+                    <div className='SILQImageGrid-Row2-Image SILQImageGrid-Image4 SILQGridImage'></div>
+                    <div className='SILQImageGrid-Row2-Image SILQImageGrid-Image5 SILQGridImage'></div>
                 </div>
 
                 

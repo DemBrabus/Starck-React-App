@@ -1,6 +1,6 @@
 .LeapInfoBar {
     width: 100%;
-    
+    margin-bottom: 60px;
 }
 
 .InfoBar-Menu {
@@ -31,7 +31,6 @@
 .InfoBar-Icon {
     width: 25px;
     height: 25px;
-    background-color: #c7c7c7;
     margin-right: 15px;
 }
 
@@ -47,9 +46,12 @@
     }
 
 .InfoBar-Arrow {
-    width: 10px;
-    height: 8px;
-    background-color: #c7c7c7;
+    width: 12px;
+    height: 12px;
+    background: url('../../../../../Assets/Icons/GreyArrow.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* InfoBar-ImagesCard */
@@ -280,7 +282,7 @@
 
 
 @media screen and (max-width: 1000px) {
-    .InfoBar {
+    .LeapInfoBar {
         display: none;
     }
 }

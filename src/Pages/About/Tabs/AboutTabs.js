@@ -84,11 +84,11 @@ export default function AboutTabs({ ToggleWhoWeAre, ToggleOurHeritage, ToggleOur
                     <div className={Card2Classes}>
                         <div className='AboutTabs-TextBox'>
                             <p className='AboutTabs-TextBoxTitle'>History</p>
-                            <p className='AboutTabs-TextBoxText'>Lorem ipsum dolor sit amet, enim maluisset mei at. Malis quidam usu ei. Posse vocibus mel no, an affert everti constituam sit. Cu imperdiet omittantur sed, vidit epicuri sadipscing ea his.</p>
+                            <p className='AboutTabs-TextBoxText'>Lorem ipsum dolor sit amet, enim maluisset mei at. Malis quidam usu ei. Posse vocibus mel no, an affert everti constituam sit. Cu imperdiet omittantur sed, his at utroque mentitum repudiare. Sumo errem veniam ne vix vidit epicuri sadipscing ea his.</p>
                             <br></br>
-                            <p className='AboutTabs-TextBoxText'>Eam at eirmod epicurei constituam. Usu te possim graecis forensibus, his at utroque mentitum repudiare. Sumo errem veniam ne vix, sea eros expetenda accusamus at, eu vide everti neglegentur.</p>
+                            <p className='AboutTabs-TextBoxText'>Eam at eirmod epicurei constituam. Usu te possim graecis forensibus, his at utroque mentitum repudiare. Sumo errem veniam ne vix, sea eros expetenda accusamus at.</p>
                             <br></br>
-                            <p className='AboutTabs-TextBoxText'>Cum no legere legimus accumsan. Eam et natum detracto eligendi, an pri dolor everti regione, at diam posse sea. Id quo aperiam recusabo, ex unum homero salutatus has, mea eirmod oblique deseruisse in.</p>
+                            <p className='AboutTabs-TextBoxText'>Cum no legere legimus accumsan. Eam et natum detracto eligendi, salutatus has, mea eirmod oblique deseruisse in.</p>
                              
                         </div>
                         <div className='AboutTabs-Image AboutTabs-Image2'></div>

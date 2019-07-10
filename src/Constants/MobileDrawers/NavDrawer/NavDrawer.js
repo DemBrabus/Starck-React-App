@@ -22,7 +22,7 @@ export default function NavDrawer({ NavDrawerIsOpen, CloseNavDrawer, CloseFooter
         <div className={NavDrawerClasses}>
             <div className='NavDrawer-Wrapper'>
                 <ul className='NavDrawer-List'>
-                    <Link to='/main-product-page' className='NavDrawer-ListLink'>
+                    <Link to='/product-page' className='NavDrawer-ListLink'>
                         <li className='NavDrawer-ListItem' onClick={EventGroup}>
                             
                                     Products

@@ -191,12 +191,7 @@ export default class App extends Component {
               <Route
                   path='/product/leap'
                   component={Leap} />
-              <Route
-                  path='/silq-product-page'
-                  component={SILQ} />
-              <Route
-                  path='/silq-product-page'
-                  component={SILQ} />
+              
 
 
             </Switch>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './PurchaseBar.scss';
+import { Link } from 'react-router-dom';
 
 export default function PurchaseBar() {
     return (
@@ -8,10 +9,13 @@ export default function PurchaseBar() {
 
                 <div className='PurchaseBar-TopRow'>
                     <p className='PurchaseBar-Title'>Purchase Options</p>
-                    <div className='PurchaseBar-Button'>
+                    <Link to='/contact'>
+                        <div className='PurchaseBar-Button'>
                         <p className='PurchaseBar-ButtonText'>Contact Us</p>
                         <div className='PurchaseBar-ButtonIcon'></div>
                     </div>
+                    </Link>
+                    
                 </div>
                 <div className='PurchaseBar-BottomRow'>
 

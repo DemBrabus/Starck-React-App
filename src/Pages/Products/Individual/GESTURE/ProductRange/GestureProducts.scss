@@ -5,8 +5,6 @@
 
 .GestureProducts-Wrapper {
     width: 100%;
-    
-
 }
 
 .GestureProducts-Title {
@@ -28,6 +26,10 @@
     height: 250px;
     position: relative;
     margin-bottom: 20px;
+}
+
+.GestureProducts-Image:hover {
+    opacity: .9;
 }
 
     .GestureProducts-ImageText {

@@ -31,9 +31,29 @@
 .InfoBar-Icon {
     width: 25px;
     height: 25px;
-    background-color: #c7c7c7;
     margin-right: 15px;
 }
+
+    .InfoBar-Icon1 {
+        background: url('../../../../../Assets/Icons/ImagesIcon.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .InfoBar-Icon2 {
+        background: url('../../../../../Assets/Icons/MaterialsIcon.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .InfoBar-Icon3 {
+        background: url('../../../../../Assets/Icons/DocumentsIcon.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
 
 .InfoBar-Text {
     font-size: 16px;
@@ -47,9 +67,12 @@
     }
 
 .InfoBar-Arrow {
-    width: 10px;
-    height: 8px;
-    background-color: #c7c7c7;
+    width: 12px;
+    height: 12px;
+    background: url('../../../../../Assets/Icons/GreyArrow.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* InfoBar-ImagesCard */
@@ -79,8 +102,9 @@
     min-width: 100px;
     height: 300px;
     margin: 5px 0;
-    background-color: #8bbcc0;
 }
+
+
 
     .SILQInfoBar-ImagesCard-Image1 {
         background: url('../../../../../Assets/Images/SILQ/SILQImages1.png');

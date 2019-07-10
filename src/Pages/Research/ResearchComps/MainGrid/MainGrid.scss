@@ -113,6 +113,10 @@
     cursor: pointer;
 }
 
+.Research-CardTitle:hover {
+    color: #585858;
+}
+
 .Research-CardText {
     font-size: 16px;
     color: #585858;
@@ -133,6 +137,10 @@
     background-color: #585858;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.Research-Card-ConnectItem:hover {
+    background-color: #717171;
 }
 
 .Research-CardTextCover {

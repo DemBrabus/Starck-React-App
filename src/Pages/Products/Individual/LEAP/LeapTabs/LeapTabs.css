@@ -1,0 +1,228 @@
+.LeapTabs {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.AboutTabs-Wrapper {
+  width: 100%;
+}
+
+.AboutTabs-Title {
+  font-size: 22px;
+  color: #191919;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.AboutTabs-Tabs {
+  width: 650px;
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-left: 1px solid #c7c7c7;
+  margin-bottom: 50px;
+}
+
+.AboutTabs-Tab {
+  width: 25%;
+  height: 100%;
+  border-right: 1px solid #c7c7c7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.AboutTabs-TabText {
+  font-size: 14px;
+  color: #9a9a9a;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.AboutTabs-TabTextActive {
+  color: #191919;
+  font-weight: 600;
+}
+
+.AboutTabs-CardContainer {
+  width: 100%;
+}
+
+.AboutTabs-Card {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.AboutTabs-TextBox {
+  width: 40%;
+  height: 100%;
+  padding: 20px;
+  margin-right: 40px;
+  padding-top: 0;
+}
+
+.AboutTabs-TextBoxTitle {
+  font-size: 20px;
+  color: #191919;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.AboutTabs-TextBoxText {
+  font-size: 14px;
+  color: #9a9a9a;
+  line-height: 28px;
+}
+
+.AboutTabs-Image {
+  width: 58%;
+  height: 450px;
+  background-color: #9a9a9a;
+}
+
+.AboutTabs-Card1 {
+  display: none;
+}
+
+.LeapTabs-Image1 {
+  background: url("../../../../../Assets/Images/Leap/LeapFeaturesTab1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.AboutTabs-Card2 {
+  display: none;
+}
+
+.LeapTabs-Image2 {
+  background: url("../../../../../Assets/Images/Leap/LeapFeaturesTab2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.AboutTabs-HistoryList {
+  list-style-type: initial;
+  margin-left: 20px;
+  line-height: 20px;
+}
+
+.AboutTabs-HistoryListItem {
+  font-size: 14px;
+  color: #9a9a9a;
+}
+
+.AboutTabs-Card3 {
+  display: none;
+}
+
+.LeapTabs-Image3 {
+  background: url("../../../../../Assets/Images/Leap/LeapFeaturesTab3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.AboutTabs-Card4 {
+  display: none;
+}
+
+.LeapTabs-Image4 {
+  background: url("../../../../../Assets/Images/Leap/LeapFeaturesTab4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.AboutTabs-CardActive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+  .AboutTabs-Image {
+    height: 30vw;
+  }
+  .AboutTabs-TextBoxText {
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .AboutTabs-Tabs {
+    display: none;
+  }
+  .AboutTabs-Card {
+    margin-bottom: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .AboutTabs-Image {
+    height: 35vw;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .AboutTabs-TextBox {
+    width: 70%;
+  }
+  .AboutTabs-TextBoxTitle {
+    margin-bottom: 10px;
+  }
+  .AboutTabs-TextBoxText {
+    margin-right: 20px;
+  }
+  .AboutTabs-Card1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .AboutTabs-Card2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .AboutTabs-Card3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .AboutTabs-Card4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .AboutTabs-Title {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .GestureTabs-Image1 {
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .AboutTabs-TextBox {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=LeapTabs.css.map */

@@ -36,6 +36,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.PurchaseBar-Button:hover {
+    background-color: #717171;
 }
 
 .PurchaseBar-ButtonText {
@@ -49,9 +54,12 @@
 }
 
 .PurchaseBar-PhoneIcon {
-    width: 20px;
-    height: 20px;
-    background-color: #585858;
+    width: 22px;
+    height: 22px;
+    background: url('../../Assets/Icons/PhoneIcon.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     margin-right: 15px;
 }
 
@@ -63,13 +71,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 .PurchaseBar-StoreIcon {
-    width: 20px;
-    height: 20px;
-    background-color: #585858;
-
+    width: 22px;
+    height: 22px;
+    background: url('../../Assets/Icons/ShoppingIcon.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     margin-right: 15px;
 }
 
@@ -84,10 +95,12 @@
 }
 
 .PurchaseBar-DealerIcon {
-    width: 20px;
-    height: 20px;
-    background-color: #585858;
-
+    width: 22px;
+    height: 22px;
+    background: url('../../Assets/Icons/LocationIcon.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     margin-right: 15px;
 }
 

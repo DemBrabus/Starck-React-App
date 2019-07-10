@@ -16,7 +16,9 @@ export default function LandingResearch() {
                                 <p className='LandingResearch-CardButtonText'>
                                     View Article
                                 </p>
-                                <div className='LandingResearch-CardButtonIcon'></div>
+                                <div className='LandingResearch-CardButtonIcon'>
+                                    <div className='LandingResearch-CardButtonIcon-Image'></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -29,7 +31,9 @@ export default function LandingResearch() {
                                 <p className='LandingResearch-CardButtonText'>
                                     Learn More
                                 </p>
-                                <div className='LandingResearch-CardButtonIcon'></div>
+                                <div className='LandingResearch-CardButtonIcon'>
+                                    <div className='LandingResearch-CardButtonIcon-Image'></div>
+                                </div>
                             </div>
                         </div>
                     </div>

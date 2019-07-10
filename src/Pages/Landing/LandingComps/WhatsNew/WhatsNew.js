@@ -12,7 +12,9 @@ export default function WhatsNew() {
                         <p className='WhatsNew-ButtonText'>
                             2019 Collaboration
                         </p>
-                        <div className='WhatsNew-ButtonIcon'></div>
+                        <div className='WhatsNew-ButtonIcon'>
+                            <div className='WhatsNew-ButtonIcon-Image'></div>
+                        </div>
                     </div>
                 </div>
                 <div className='WhatsNew-Image'></div>

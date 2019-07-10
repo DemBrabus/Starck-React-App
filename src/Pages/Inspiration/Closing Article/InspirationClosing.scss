@@ -42,11 +42,12 @@
 }
 
 .InspirationClosing-Button {
-    width: 150px;
+    width: 170px;
     height: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 .InspirationClosing-ButtonText {
@@ -59,7 +60,10 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: #9a9a9a;
+    background: url('../../../Assets/Icons/GreyCircleArrow.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 

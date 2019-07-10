@@ -78,6 +78,7 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  padding-right: 10px;
 }
 
 .Dealer-Card-Title {

@@ -63,6 +63,11 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    cursor: pointer;
+}
+
+.GestureHero-Button:hover {
+    background-color: #191919;
 }
 .GestureHero-Mobile-TextBox {
     width: 100%;

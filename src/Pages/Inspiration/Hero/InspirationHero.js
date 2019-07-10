@@ -12,7 +12,9 @@ export default function InspirationHero() {
                         <p className='InspirationHero-WhiteBox-Text'>People are rebelling against the uninspiring sea of sameness that has come to be known as the office.</p>
                         <div className='InspirationHero-WhiteBox-Button'>
                             <p className='InspirationHero-WhiteBox-ButtonText'>Get Inspired</p>
-                            <div className='InspirationHero-WhiteBox-ButtonIcon'></div>
+                            <div className='InspirationHero-WhiteBox-ButtonIcon'>
+                                <div className='InspirationHero-WhiteBox-ButtonIcon-Image'></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -22,7 +24,9 @@ export default function InspirationHero() {
                     <p className='InspirationHero-WhiteBox-Text'>People are rebelling against the uninspiring sea of sameness that has come to be known as the office.</p>
                     <div className='InspirationHero-Mobile-Button'>
                         <p className='InspirationHero-Mobile-ButtonText'>Get Inspired</p>
-                        <div className='InspirationHero-Mobile-ButtonIcon'></div>
+                        <div className='InspirationHero-Mobile-ButtonIcon'>
+                            <div className='InspirationHero-Mobile-ButtonIcon-Image'></div>
+                        </div>
                     </div>
                 </div>
 

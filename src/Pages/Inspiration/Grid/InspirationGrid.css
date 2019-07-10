@@ -150,6 +150,10 @@
   background-repeat: no-repeat;
 }
 
+.InspirationGridImage:hover {
+  opacity: .9;
+}
+
 @media screen and (max-width: 1200px) {
   .InspirationGrid-Row1-Column1 {
     height: 600px;

@@ -74,6 +74,11 @@
       -ms-flex-align: center;
           align-items: center;
   margin: 0 auto;
+  cursor: pointer;
+}
+
+.LeapHero-Button:hover {
+  background-color: #717171;
 }
 
 .LeapHero-Mobile-TextBox {

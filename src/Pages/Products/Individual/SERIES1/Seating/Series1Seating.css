@@ -61,6 +61,10 @@
   cursor: pointer;
 }
 
+.Series1Seating-Button:hover {
+  background-color: #585858;
+}
+
 @media screen and (max-width: 1000px) {
   .Series1Seating-Wrapper {
     -webkit-box-orient: vertical;
