@@ -59,9 +59,35 @@
 .FullFooter-Social .FullFooter-SocialTags .FullFooter-SocialTag {
   width: 20px;
   height: 20px;
-  background-color: #4f4f4f;
   margin-right: 30px;
-  border-radius: 5px;
+}
+
+.FullFooter-Social .FullFooter-SocialTags .FullFooter-SocialTag1 {
+  background: url("../../../Assets/Icons/InstagramLogo.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.FullFooter-Social .FullFooter-SocialTags .FullFooter-SocialTag2 {
+  background: url("../../../Assets/Icons/Facebooklogo.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.FullFooter-Social .FullFooter-SocialTags .FullFooter-SocialTag3 {
+  background: url("../../../Assets/Icons/TwitterLogo.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.FullFooter-Social .FullFooter-SocialTags .FullFooter-SocialTag4 {
+  background: url("../../../Assets/Icons/PintrestLogoMini.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .FullFooter-Social .FulLFooter-ContactUsText {

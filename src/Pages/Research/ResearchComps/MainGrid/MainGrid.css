@@ -135,15 +135,37 @@
 }
 
 .Research-Card-ConnectItem {
-  width: 30px;
-  height: 30px;
-  background-color: #585858;
-  border-radius: 50%;
+  width: 25px;
+  height: 25px;
   cursor: pointer;
 }
 
-.Research-Card-ConnectItem:hover {
-  background-color: #717171;
+.Research-Card-ConnectItem1 {
+  background: url("../../../../Assets/Icons/InstagramLogo.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Research-Card-ConnectItem2 {
+  background: url("../../../../Assets/Icons/Facebooklogo.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Research-Card-ConnectItem3 {
+  background: url("../../../../Assets/Icons/TwitterLogo.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Research-Card-ConnectItem4 {
+  background: url("../../../../Assets/Icons/PintrestLogoMini.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .Research-CardTextCover {

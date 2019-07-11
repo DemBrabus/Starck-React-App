@@ -44,10 +44,10 @@ export default function FullFooter() {
                 <div className='FullFooter-Social'>
                     <p className='FullFooter-SocialTagsTitle FullFooter-Title'>Connect With Us</p>
                     <div className='FullFooter-SocialTags'>
-                        <div className='FullFooter-SocialTag'></div>
-                        <div className='FullFooter-SocialTag'></div>
-                        <div className='FullFooter-SocialTag'></div>
-                        <div className='FullFooter-SocialTag'></div>
+                        <div className='FullFooter-SocialTag FullFooter-SocialTag1'></div>
+                        <div className='FullFooter-SocialTag FullFooter-SocialTag2'></div>
+                        <div className='FullFooter-SocialTag FullFooter-SocialTag3'></div>
+                        <div className='FullFooter-SocialTag FullFooter-SocialTag4'></div>
                     </div>
                     <p className='FullFooter-ContactUsTitle FullFooter-Title'>Contact Us</p>
                     <p className='FulLFooter-ContactUsText'>We would love to hear from you! Contact us for sales requests, career information, investor relations, corporate information, or general questions.</p>

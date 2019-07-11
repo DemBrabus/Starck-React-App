@@ -1,6 +1,25 @@
 import React from 'react';
 import './Dealer.scss';
 import Scroll from '../../Recycled/Scroll/Scroll';
+import { GoogleMap, withScriptjs, withGoogleMap  } from 'react-google-maps';
+
+
+
+function Map(){
+    return( 
+    
+        <GoogleMap 
+            defaultZoom={10} 
+            defaultCenter={{lat: 39.961178, lng: -82.998795}}
+                    
+        />
+    )
+    
+}
+
+
+    const WrapperMap = withScriptjs(withGoogleMap(Map));
+
 
 export default function Dealer() {
     return (
@@ -184,7 +203,11 @@ export default function Dealer() {
                     </div>
 
                     <div className='Dealer-Map'>
-                       
+                       <WrapperMap googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyCs0Ihg3HbUUw-Ub47aH9uqTPdwpPPHQGc`}
+                       loadingElement={<div style={{height: "100%"}} />}
+                       containerElement={<div style={{height: "100%"}} />}
+                       mapElement={<div style={{height: "100%"}} />}
+                       />
                     </div>
                 </div>
 

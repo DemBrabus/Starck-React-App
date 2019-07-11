@@ -50,9 +50,41 @@
             .FullFooter-SocialTag {
                 width: 20px;
                 height: 20px;
-                background-color: rgb(79, 79, 79);;
                 margin-right: 30px;
-                border-radius: 5px;
+            }
+
+            .FullFooter-SocialTag1 {
+                background: url('../../../Assets/Icons/InstagramLogo.svg');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+
+            .FullFooter-SocialTag2 {
+            
+                
+                background: url('../../../Assets/Icons/Facebooklogo.svg');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+
+            .FullFooter-SocialTag3 {
+            
+                
+                background: url('../../../Assets/Icons/TwitterLogo.svg');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+
+            .FullFooter-SocialTag4 {
+            
+                
+                background: url('../../../Assets/Icons/PintrestLogoMini.svg');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
             }
         }
 

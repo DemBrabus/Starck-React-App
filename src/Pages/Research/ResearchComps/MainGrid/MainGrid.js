@@ -61,10 +61,10 @@ export default function MainGrid({ Card1Status, Card2Status, Card3Status, Card4S
                             
                         </div>
                         <div className='Research-Card-Connect'>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem1'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem2'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem3'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem4'></div>
                         </div>
                         <div className='Research-CardTextCover'></div>
                     </div>
@@ -76,10 +76,10 @@ export default function MainGrid({ Card1Status, Card2Status, Card3Status, Card4S
                             <p className='Research-CardText'>A digital double, tiny rockets, subvocal speech—TED speakers shared new approaches and big ideas about the future of humanity.</p>
                         </div>
                         <div className='Research-Card-Connect'>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem1'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem2'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem3'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem4'></div>
                         </div>
                         <div className='Research-CardTextCover'></div>
                     </div>
@@ -96,10 +96,10 @@ export default function MainGrid({ Card1Status, Card2Status, Card3Status, Card4S
                             <p className='Research-CardText'>Twenty-three students present their ideas of what the future of work looks like to them.</p>
                         </div>
                         <div className='Research-Card-Connect'>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
+                           <div className='Research-Card-ConnectItem Research-Card-ConnectItem1'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem2'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem3'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem4'></div>
                         </div>
                         <div className='Research-CardTextCover'></div>
                     </div>
@@ -111,10 +111,10 @@ export default function MainGrid({ Card1Status, Card2Status, Card3Status, Card4S
                             <p className='Research-CardText'>We’re counting down the most popular 360 Real Time Podcasts of the year.</p>
                         </div>
                         <div className='Research-Card-Connect'>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem1'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem2'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem3'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem4'></div>
                         </div>
                         <div className='Research-CardTextCover'></div>
                     </div>
@@ -131,10 +131,10 @@ export default function MainGrid({ Card1Status, Card2Status, Card3Status, Card4S
                             <p className='Research-CardText'>Spotify’s Angie Romero won a limited-edition TED-inspired SILQ chair. Now, she shares with us how she puts herself in a creative state of mind.</p>
                         </div>
                         <div className='Research-Card-Connect'>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem1'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem2'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem3'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem4'></div>
                         </div>
                         <div className='Research-CardTextCover'></div>
                     </div>
@@ -146,10 +146,10 @@ export default function MainGrid({ Card1Status, Card2Status, Card3Status, Card4S
                             <p className='Research-CardText'>Thinking like a designer can transform how we develop products, services, processes and even strategy.</p>
                         </div>
                         <div className='Research-Card-Connect'>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem1'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem2'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem3'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem4'></div>
                         </div>
                         <div className='Research-CardTextCover'></div>
                     </div>
@@ -166,10 +166,10 @@ export default function MainGrid({ Card1Status, Card2Status, Card3Status, Card4S
                             <p className='Research-CardText'>Known as The Chairman, Italian designer Odo Fioravanti shares his design philosophy and explains how Cavatina brings a human touch to the workplace.</p>
                         </div>
                         <div className='Research-Card-Connect'>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem1'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem2'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem3'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem4'></div>
                         </div>
                         <div className='Research-CardTextCover'></div>
                     </div>
@@ -181,10 +181,10 @@ export default function MainGrid({ Card1Status, Card2Status, Card3Status, Card4S
                             <p className='Research-CardText'>These days the workplace feels a lot more like home and I find myself coveting things at work I’d love to bring home with me.</p>
                         </div>
                         <div className='Research-Card-Connect'>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
-                            <div className='Research-Card-ConnectItem'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem1'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem2'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem3'></div>
+                            <div className='Research-Card-ConnectItem Research-Card-ConnectItem4'></div>
                         </div>
                         <div className='Research-CardTextCover'></div>
                     </div>

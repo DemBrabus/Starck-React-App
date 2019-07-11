@@ -26,6 +26,10 @@
   cursor: pointer;
 }
 
+.CardImage:hover {
+  opacity: .9;
+}
+
 .CardImage1 {
   background: url("../../../../../Assets/Images/ProductPage/ProductImage1.png");
   background-size: cover;
