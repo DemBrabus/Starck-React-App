@@ -8,7 +8,6 @@ import ScrollToTop from '../Constants/ScrollToTop/ScrollToTop';
 //Components
 import FullNav from '../Constants/Navigation/FullNav/FullNav';
 import MobileNav from '../Constants/Navigation/MobileNav/MobileNav';
-import FullOverlay from '../Recycled/Overlay/FullOverlay/FullOverlay';
 import MobileOverlay from '../Recycled/Overlay/MobileOverlay/MobileOverlay';
 import NavDrawer from '../Constants/MobileDrawers/NavDrawer/NavDrawer';
 import UserDrawer from '../Constants/MobileDrawers/UserDrawer/UserDrawer';

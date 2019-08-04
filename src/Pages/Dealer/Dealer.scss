@@ -112,4 +112,20 @@
     .Dealer {
         margin-top: 60px;
     }
+    .Dealer-Content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Dealer-CardWrap {
+        width: 90%;
+        align-self: flex-start;
+        padding-left: 20px;
+    }
+    .Dealer-Map {
+        width: 95%;
+        height: 80vh;
+    }
+    .Dealer-Title {
+        padding-left: 20px;
+    }
 }

@@ -29,10 +29,10 @@ export default function PurchaseBar() {
                         <p className='PurchaseBar-StoreText'>Starck Store</p>
                     </div>
 
-                    <div className='PurchaseBar-Dealer'>
+                    <Link to='/find-a-dealer' className='PurchaseBar-Dealer'>
                         <div className='PurchaseBar-DealerIcon'></div>
                         <p className='PurchaseBar-DealerText'>Find a Dealer</p>
-                    </div>
+                    </Link>
 
                 </div>
 

@@ -41,7 +41,9 @@
 .MobileNav-UserIcon {
     width: 25px;
     height: 25px; 
-    background-color: #585858;
+    background: url('../../../Assets/Icons/UserIcon.svg');
+    background-position: center;
+    background-size: contain;
     margin-right: 10px;
     cursor: pointer;
 }
