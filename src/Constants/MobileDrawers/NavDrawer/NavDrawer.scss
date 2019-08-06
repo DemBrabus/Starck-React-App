@@ -58,7 +58,10 @@
 .NavDrawer-ListItemLinkIcon {
     width: 7px;
     height: 7px;
-    background-color: #585858;
+    background: url('../../../Assets/Icons/GreyArrow.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 

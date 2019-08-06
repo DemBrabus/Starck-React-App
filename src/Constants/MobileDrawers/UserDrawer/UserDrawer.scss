@@ -67,11 +67,14 @@
     }
 
     .UserDrawer-SavedItemIcon {
-            width: 7px;
-            height: 7px;
-            background-color: #585858;
-            margin-right: 15px;
-            cursor: pointer;
+        width: 7px;
+        height: 7px;
+        background: url('../../../Assets/Icons/GreyArrow.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 15px;
+        cursor: pointer;
         }
 }
 
