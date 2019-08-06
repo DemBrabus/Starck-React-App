@@ -14,7 +14,7 @@ export default function Registration() {
 
                     <p className='Registration-Text'>Our Database Is Currently Under Development. </p>
 
-                    <p className='Registration-Text'>We Appreciate You're Patients!</p>
+                    <p className='Registration-Text'>We Appreciate You're Patience!</p>
 
                     <p className='Registration-Text'>Please Check Back With Us.</p>
                 </div>

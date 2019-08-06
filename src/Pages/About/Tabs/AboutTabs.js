@@ -101,7 +101,7 @@ export default function AboutTabs({ ToggleWhoWeAre, ToggleOurHeritage, ToggleOur
                             </p>
                               <br></br>
                             <p className='AboutTabs-TextBoxText'>
-                            At NameLogo we:</p>
+                            At Starck we:</p>
                             <br></br>
                             <ul className='AboutTabs-HistoryList'>
                                 <li className='AboutTabs-HistoryListItem'>
